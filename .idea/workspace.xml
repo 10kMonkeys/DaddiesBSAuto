@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2226639-0850-4b93-8653-ca131ca33ae7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/Application.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/Application.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/LongboardsPage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/LongboardsPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtLongboardsPage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtLongboardsPage.java" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Application/Application.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/Longboards.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Steps/AtLongboards.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LongBrandListTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LongBrandListTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LongBrandListTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -632,7 +627,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LongBrandListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>

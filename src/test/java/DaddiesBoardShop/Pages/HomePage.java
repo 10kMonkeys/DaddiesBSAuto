@@ -10,8 +10,6 @@ import org.openqa.selenium.WebElement;
 @DefaultUrl("https://www.daddiesboardshop.com/")
 public class HomePage extends PageObject {
 
-//    JSExecuter jsExecuter = new JSExecuter();
-
     @FindBy(css = "img[alt='Longboards']")
     public WebElement longboardsCategory;
 

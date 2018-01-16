@@ -1,4 +1,4 @@
 package DaddiesBoardShop.Steps;
 
-public class AtLongboards {
+public class AtLongboardsPage {
 }

@@ -27,5 +27,8 @@ public class Application {
 
     @Steps
     public InApplicationHeader inApplicationHeader;
+
+    @Steps
+    public AtLongboardsPage atLongboardsPage;
 }
  

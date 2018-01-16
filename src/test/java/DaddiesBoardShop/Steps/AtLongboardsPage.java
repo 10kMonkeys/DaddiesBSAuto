@@ -11,6 +11,6 @@ public class AtLongboardsPage {
     }
 
     public void getLongBrandList() {
-        onPage.getLongBrandList();
+        onPage.checkOmenBrand();
     }
 }

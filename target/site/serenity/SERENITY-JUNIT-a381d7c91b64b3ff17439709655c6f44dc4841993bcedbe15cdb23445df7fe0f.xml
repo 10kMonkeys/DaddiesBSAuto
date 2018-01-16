@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="DaddiesBoardShop.Tests.LongBrandListTest" skipped="0" tests="1" time="18.43" timestamp="2018-01-16T11:37:49.945909900+03:00[Europe/Moscow]"><testcase classname="DaddiesBoardShop.Tests.LongBrandListTest" name="Check long brand list"><error message="The following error occurred: Timed out after 2 seconds. List elements not visible&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'WS-030-61', ip: '192.168.174.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">The following error occurred: Timed out after 2 seconds. List elements not visible
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'WS-030-61', ip: '192.168.174.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: driver.version: unknown</error><system-err>The following error occurred: Timed out after 2 seconds. List elements not visible
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'WS-030-61', ip: '192.168.174.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: driver.version: unknown&#13;
+DaddiesBoardShop.Pages.LongboardsPage.getOmenBrand(LongboardsPage.java:29)&#13;
+DaddiesBoardShop.Steps.AtLongboardsPage.getLongBrandList(AtLongboardsPage.java:14)&#13;
+DaddiesBoardShop.Tests.LongBrandListTest.checkLongBrandList(LongBrandListTest.java:11)&#13;
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+</system-err></testcase></testsuite>

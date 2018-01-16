@@ -11,6 +11,10 @@ public class AtLongboardsPage {
     }
 
     public void getLongBrandList() {
-        onPage.checkOmenBrand();
+        onPage.scrollToOmenBrand();
+    }
+
+    public void getHorizonScrollMountainTitle() {
+        onPage.horizScrollToMountainTitle();
     }
 }

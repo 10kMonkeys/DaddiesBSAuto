@@ -1,6 +1,6 @@
 package DaddiesBoardShop.Pages;
 
-import DaddiesBoardShop.Helper.JSExecuter;
+import DaddiesBoardShop.Helper.Scroll;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.DefaultUrl;
@@ -21,7 +21,9 @@ public class HomePage extends PageObject {
     @Step
     public void openLongboardsCategory() {
         openHomePage();
-        JSExecuter.ScrollToElementOnPage(longboardsCategory);
+        Scroll.ScrollToElementOnPage(longboardsCategory);
         longboardsCategory.click();
     }
+
+
 }

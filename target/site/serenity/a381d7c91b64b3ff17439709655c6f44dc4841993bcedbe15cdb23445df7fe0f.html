@@ -73,7 +73,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 16-01-2018 11:37</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 17-01-2018 11:39</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -98,6 +98,13 @@
 
                         </td>
                         <td valign="top">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink"
+                                                                      href="3f1f8851c5e6eee11c8c1a5bb777cc303dbb406e6e8eba79ea1c1477e15781ac.html">Test
+                                    (My)</a>
+                                </span>
+                            </p>
                         </td>
                     </tr>
                 </table>
@@ -106,9 +113,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
                             <span class="test-case-title">
-                                    <span class="error-color">
+                                    <span class="success-color">
                                     Check long brand list
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -133,100 +140,19 @@
                     <th width="65">                        &nbsp;
                     </th>
 
-                    <th width="%" class="step-description-column greentext">
+                    <th width="%" class="step-description-wide-column greentext">
                         Steps
                     </th>
-                    <th width="120" class="greentext">Screenshot</th>
                     <th width="100" class="greentext">Outcome</th>
                     <th width="75" class="greentext">Duration</th>
                 </tr>
                 <tr class="step-table-separator">
                     <td colspan="5"></td>
                 </tr>
-                <tr class="test-ERROR">
-                    <td width="60" class="step-icon">
-                        <a name="0"/>
-                            <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="top-level-step">
-                                Get long brand list
-                            </span>
-
-                        </div>
-                    </td>
-                        <td width="100" class="ERROR-text">
-                                <a href="a381d7c91b64b3ff17439709655c6f44dc4841993bcedbe15cdb23445df7fe0f_screenshots.html#screenshots?screenshot=0">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="ce6052760e34f823c369656b51e04763eba2327bbf3fa71d3c7aeb49c360d329.png"
-                                         href="ce6052760e34f823c369656b51e04763eba2327bbf3fa71d3c7aeb49c360d329.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="top-level-step">ERROR</span></td>
-                    <td width="100"><span class="top-level-step">1.18s</span></td>
-                </tr>
-                    <tr class="test-ERROR">
-                        <td width="40">&nbsp</td>
-                        <td width="%" colspan="4" class="error-message-cell">
-                            <div class="error-message ellipsis"
-                                 title='No such element exception: The following error occurred: Timed out after 2 seconds. List elements not visible'>
-                                <pre>No such element exception: The following error occurred: Timed out after 2 seconds. List elements not visible</pre>
-                            </div>
-                <div><!-- Stack trace -->
-                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
-                            data-target="#stacktraceModal-1">
-                        View stack trace
-                    </button>
-                </div>
-                <!-- Modal -->
-                <div class="modal fade" id="stacktraceModal-1" tabindex="-1" role="dialog"
-                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal"
-                                        aria-label="Close"><span aria-hidden="true">&times;</span>
-                                </button>
-                                <h4 class="modal-title" id="stacktraceModalLabel">
-                                org.openqa.selenium.NoSuchElementException
-                                </h4>
-                            </div>
-                            <div class="modal-body">
-                                    <h5>
-                                        <pre>The following error occurred: Timed out after 2 seconds. List elements not visible<br>For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br>Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'<br>System info: host: 'WS-030-61', ip: '192.168.174.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'<br>Driver info: driver.version: unknown</pre>
-                                    </h5>
-                                DaddiesBoardShop.Pages.LongboardsPage.getOmenBrand(LongboardsPage.java
-                                    :29) <br>
-                                DaddiesBoardShop.Steps.AtLongboardsPage.getLongBrandList(AtLongboardsPage.java
-                                    :14) <br>
-                                DaddiesBoardShop.Tests.LongBrandListTest.checkLongBrandList(LongBrandListTest.java
-                                    :11) <br>
-                                jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java
-                                    :-2) <br>
-                                jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java
-                                    :62) <br>
-                                jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java
-                                    :43) <br>
-                            </div>
-
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">
-                                    Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                        </td>
-                    </tr>
-                <tr class="test-ERROR">
-                    <td colspan="3"></td>
-                    <td width="100"><span class="top-level-step"><em>ERROR</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>18.43s</em></span></td>
+                <tr class="test-SUCCESS">
+                    <td colspan="2"></td>
+                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>5.91s</em></span></td>
                 </tr>
 
             </table>

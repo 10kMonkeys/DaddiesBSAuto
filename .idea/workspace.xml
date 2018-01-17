@@ -3,15 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="c2226639-0850-4b93-8653-ca131ca33ae7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/serenity.properties" afterPath="$PROJECT_DIR$/serenity.properties" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/Application.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/Application.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Helper/JSExecuter.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Helper/Scroll.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/HomePage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/HomePage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Helper/Scroll.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Helper/Scroll.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/Customer.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/Customer.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/MyRegisteredCustomer.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/MyRegisteredCustomer.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/LongboardsPage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/LongboardsPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtLongboardsPage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtLongboardsPage.java" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HorizontalScrollTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HorizontalScrollTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LongBrandListTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LongBrandListTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/OpenLongboardCategoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/OpenLongboardCategoryTest.java" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/0f5b31ae55d96b4fbc108ff37687fb879231fb161a8cc4ccaaf2d0febd7c5bd1.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/0f5b31ae55d96b4fbc108ff37687fb879231fb161a8cc4ccaaf2d0febd7c5bd1.json" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/0f5b31ae55d96b4fbc108ff37687fb879231fb161a8cc4ccaaf2d0febd7c5bd1_screenshots.html" afterPath="" />
@@ -19,316 +19,16 @@
       <change beforePath="$PROJECT_DIR$/target/site/serenity/8554d7413d418ef50c1c7e0b1f5dd166d5f3841ec0130c1eb4a3aa55e27fdedc.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/93a56ff3651f6f50e018ffe131684e2d1367e1cdaf74279f4cdd087ae81fca5c.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-0f5b31ae55d96b4fbc108ff37687fb879231fb161a8cc4ccaaf2d0febd7c5bd1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-a381d7c91b64b3ff17439709655c6f44dc4841993bcedbe15cdb23445df7fe0f.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-a381d7c91b64b3ff17439709655c6f44dc4841993bcedbe15cdb23445df7fe0f.xml" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-a381d7c91b64b3ff17439709655c6f44dc4841993bcedbe15cdb23445df7fe0f.xml" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-b72a4c31200092e8fef993798f01754049341a2d03c5cb3e00985a92cee3007f.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/a381d7c91b64b3ff17439709655c6f44dc4841993bcedbe15cdb23445df7fe0f.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/a381d7c91b64b3ff17439709655c6f44dc4841993bcedbe15cdb23445df7fe0f.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/a381d7c91b64b3ff17439709655c6f44dc4841993bcedbe15cdb23445df7fe0f.html" afterPath="$PROJECT_DIR$/target/site/serenity/a381d7c91b64b3ff17439709655c6f44dc4841993bcedbe15cdb23445df7fe0f.html" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/a381d7c91b64b3ff17439709655c6f44dc4841993bcedbe15cdb23445df7fe0f.json" afterPath="$PROJECT_DIR$/target/site/serenity/a381d7c91b64b3ff17439709655c6f44dc4841993bcedbe15cdb23445df7fe0f.json" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/a381d7c91b64b3ff17439709655c6f44dc4841993bcedbe15cdb23445df7fe0f_screenshots.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/android-icon-144x144.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/android-icon-192x192.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/android-icon-36x36.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/android-icon-48x48.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/android-icon-72x72.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/android-icon-96x96.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-114x114.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-120x120.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-144x144.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-152x152.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-180x180.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-57x57.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-60x60.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-72x72.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-76x76.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-precomposed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/b5503775e559935b7a3a372a823d22366e5d68a74998a75e0df4ff2af168cd4a.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/b72a4c31200092e8fef993798f01754049341a2d03c5cb3e00985a92cee3007f.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/b72a4c31200092e8fef993798f01754049341a2d03c5cb3e00985a92cee3007f.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap-theme.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap-theme.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/js/bootstrap.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/js/bootstrap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/js/npm.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/browserconfig.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/ce6052760e34f823c369656b51e04763eba2327bbf3fa71d3c7aeb49c360d329.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/css/core.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/css/link.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/css/screen.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/css/tables.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/css/jquery.dataTables.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/css/jquery.dataTables.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/css/jquery.dataTables_themeroller.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/Sorting icons.psd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/back_disabled.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/back_enabled.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/back_enabled_hover.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/forward_disabled.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/forward_enabled.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/forward_enabled_hover.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/sort_asc.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/sort_asc_disabled.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/sort_both.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/sort_desc.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/images/sort_desc_disabled.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/jqueryui/dataTables.jqueryui.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/jqueryui/dataTables.jqueryui.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/jqueryui/dataTables.jqueryui.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/jqueryui/dataTables.jqueryui.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/jqueryui/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/js/jquery.dataTables.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/js/jquery.dataTables.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.4/media/js/jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/dygraph/1.1.0/dygraph-combined.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/excanvas/3/excanvas.compiled.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/excanvas/3/excanvas.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/favicon-16x16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/favicon-32x32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/favicon-96x96.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/flow/serenity.configuration.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/HELP-US-OUT.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/css/font-awesome.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/css/font-awesome.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/fonts/FontAwesome.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/animated.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/bordered-pulled.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/core.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/fixed-width.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/font-awesome.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/icons.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/larger.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/list.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/mixins.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/path.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/rotated-flipped.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/screen-reader.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/stacked.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/less/variables.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_animated.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_core.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_fixed-width.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_icons.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_larger.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_list.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_mixins.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_path.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_screen-reader.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_stacked.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/_variables.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/font-awesome/scss/font-awesome.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/bg_01.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/bg_04.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/bottomm.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/cross.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-appium.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-chrome.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-firefox.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-htmlunit.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-iexplorer.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-opera.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-phantomjs.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-provided.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-remote.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-safari.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/fail.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/greenline.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/ico-q.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/icon-1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/ignor.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/links_menu.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/logo.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/menu_f.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/menu_h.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/menu_s.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/middle-left.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/middle-right.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/middle.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/minus.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/pending.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/plus.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/screen.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/serenity-logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/skip.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/small-middle-left.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/small-middle-right.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/small-middle.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/success.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/tablebg.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/tick.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/top-left.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/top-right.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/top.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/topm.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/traffic-green.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/traffic-in-progress.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/traffic-orange.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/traffic-red.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/traffic-yellow.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/video.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/worker.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/2.0.1/jit-yc.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/2.0.1/jit.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/AreaChart.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/BarChart.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/ForceDirected.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/ForceDirected3D.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/HeatMap.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/Hypertree.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/Icicle.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/Other.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/PieChart.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/RGraph.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/Spacetree.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/Sunburst.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/TimeGraph.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/Treemap.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/base.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/col1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/col2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/gradient.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/excanvas.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/jquery.jqplot.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/jquery.jqplot.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.BezierCurveRenderer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.BezierCurveRenderer.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.barRenderer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.barRenderer.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.blockRenderer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.blockRenderer.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.bubbleRenderer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.bubbleRenderer.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasAxisLabelRenderer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasAxisLabelRenderer.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasAxisTickRenderer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasAxisTickRenderer.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasOverlay.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasOverlay.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasTextRenderer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasTextRenderer.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.categoryAxisRenderer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.categoryAxisRenderer.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.ciParser.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.ciParser.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.cursor.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.cursor.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.dateAxisRenderer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.dateAxisRenderer.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.donutRenderer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.donutRenderer.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.dragable.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.dragable.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.enhancedLegendRenderer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.enhancedLegendRenderer.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.funnelRenderer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.funnelRenderer.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.highlighter.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.highlighter.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.json2.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.json2.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.logAxisRenderer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.logAxisRenderer.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mekkoAxisRenderer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mekkoAxisRenderer.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mekkoRenderer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mekkoRenderer.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.meterGaugeRenderer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.meterGaugeRenderer.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mobile.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mobile.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.ohlcRenderer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.ohlcRenderer.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pieRenderer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pieRenderer.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pointLabels.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pointLabels.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidAxisRenderer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidAxisRenderer.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidGridRenderer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidGridRenderer.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidRenderer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidRenderer.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.trendline.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqplot/1.0.8/plugins/jqplot.trendline.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqtree/0.22/jqtree-circle.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqtree/0.22/jqtree.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqtree/0.22/tree.jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/external/jquery/jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_flat_55_999999_40x100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_flat_75_aaaaaa_40x100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_glass_45_0078ae_1x400.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_glass_55_f8da4e_1x400.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_glass_75_79c9ec_1x400.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_gloss-wave_45_e14f1c_500x100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_gloss-wave_50_6eac2c_500x100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_gloss-wave_75_2191c0_500x100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_0078ae_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_056b93_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_d8e7f3_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_e0fdff_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_f5e175_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_f7a50d_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_fcd113_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.structure.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.structure.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.theme.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.theme.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/ms-icon-144x144.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/ms-icon-150x150.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/ms-icon-310x310.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/ms-icon-70x70.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/demo.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/images/dev7logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/images/nemo.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/images/toystory.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/images/up.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/images/walle.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/scripts/jquery-1.9.0.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/jquery.nivo.slider.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/jquery.nivo.slider.pack.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/license.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/nivo-slider.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/nivoslider.jquery.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/bar/arrows.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/bar/bar.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/bar/bullets.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/bar/loading.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/dark/arrows.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/dark/bullets.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/dark/dark.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/dark/loading.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/default/arrows.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/default/bullets.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/default/default.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/default/loading.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/light/arrows.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/light/bullets.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/light/light.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/light/loading.gif" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/pagesource13420177336282300885.html.txt" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/pagesource2772307390754221373.html.txt" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/pagesource6623093509312555235.html.txt" afterPath="" />
@@ -336,41 +36,21 @@
       <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_8554d7413d418ef50c1c7e0b1f5dd166d5f3841ec0130c1eb4a3aa55e27fdedc.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_93a56ff3651f6f50e018ffe131684e2d1367e1cdaf74279f4cdd087ae81fca5c.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_ce6052760e34f823c369656b51e04763eba2327bbf3fa71d3c7aeb49c360d329.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scripts/imgpreview.full.jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scripts/jquery-1.11.1.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scripts/jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/serenity-resources" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/2018-01-15T18-07-28_985.dumpstream" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/2018-01-15T18-09-08_168-jvmRun1.dump" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/2018-01-15T18-09-08_168-jvmRun1.dumpstream" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/2018-01-15T18-09-09_164.dumpstream" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/DaddiesBoardShop.Tests.AtLoginOrCreateAccPageElementsTest.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DaddiesBoardShop.Tests.AtLoginOrCreateAccPageElementsTest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Application/Application.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/DaddiesBoardShop.Tests.AtLoginOrCreateAccPageElementsTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/DaddiesBoardShop.Tests.AtLoginOrCreateAccPageElementsTest.txt" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DaddiesBoardShop.Tests.AtLoginOrCreateAccPageElementsTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-DaddiesBoardShop.Tests.AtLoginOrCreateAccPageElementsTest.xml" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Application/Application.class" afterPath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Application/Application.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Helper/JSExecuter.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Model/Customer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Model/Guest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Model/MyRegisteredCustomer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/ApplicationHeader.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/BasePage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/CreateAccountPage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/HomePage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/LoginOrCreateAccPage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/LongboardsPage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/MyAccDashboardPage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/MyAccountNavigationMenu.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Steps/AtCreateAccountPage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Steps/AtHomePage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Steps/AtLoginOrCreateAccPage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Steps/AtLongboardsPage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Steps/AtMyAccDashboardPage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Steps/InApplicationHeader.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Tests/AtLoginOrCreateAccPageElementsTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Tests/LogInRegisteredCustomerTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Tests/LongBrandListTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Tests/MyAccDashboardNavMenuTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Tests/OpenLongboardCategoryTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Tests/RegisterNewCustomerTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Model/Customer.class" afterPath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Model/Customer.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Model/MyRegisteredCustomer.class" afterPath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Model/MyRegisteredCustomer.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/HomePage.class" afterPath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/HomePage.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/LongboardsPage.class" afterPath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/LongboardsPage.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Steps/AtLongboardsPage.class" afterPath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Steps/AtLongboardsPage.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Tests/LongBrandListTest.class" afterPath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Tests/LongBrandListTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Tests/OpenLongboardCategoryTest.class" afterPath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Tests/OpenLongboardCategoryTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -383,25 +63,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Scroll.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Helper/Scroll.java">
+      <file leaf-file-name="AtMyAccDashboardPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtMyAccDashboardPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="44" />
+            <state relative-caret-position="68">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongboardsPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/LongboardsPage.java">
+      <file leaf-file-name="AtLongboardsPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtLongboardsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+            <state relative-caret-position="136">
+              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#859#860#0" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -410,36 +89,42 @@
       <file leaf-file-name="LongBrandListTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LongBrandListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            <state relative-caret-position="68">
+              <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HorizontalScrollTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HorizontalScrollTest.java">
+      <file leaf-file-name="OpenLongboardCategoryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/OpenLongboardCategoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AtHomePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtHomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AtLongboardsPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtLongboardsPage.java">
+      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-              <folding>
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="374">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -469,14 +154,17 @@
         <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/Longboards.java" />
         <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/Application.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Helper/JSExecuter.java" />
         <option value="$PROJECT_DIR$/serenity.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Helper/Scroll.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/LongboardsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtLongboardsPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LongBrandListTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Helper/Scroll.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/Customer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/LongboardsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HorizontalScrollTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/MyRegisteredCustomer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LongBrandListTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/OpenLongboardCategoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/HomePage.java" />
       </list>
     </option>
   </component>
@@ -552,60 +240,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DaddiesBsAuto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DaddiesBsAuto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DaddiesBsAuto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DaddiesBsAuto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
-              <item name="Helper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DaddiesBsAuto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DaddiesBsAuto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DaddiesBsAuto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DaddiesBsAuto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
-              <item name="Pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DaddiesBsAuto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DaddiesBsAuto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
-              <item name="Steps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DaddiesBsAuto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DaddiesBsAuto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -635,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HorizontalScrollTest.horizScrollToMountTitle">
+  <component name="RunManager" selected="Maven.DaddiesBsAuto [clean]">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -777,6 +411,29 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="DaddiesBsAuto [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -817,18 +474,20 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.AtLoginOrCreateAccPageElementsTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.LongboardsPage.getLongBrandList" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.LongBrandListTest.checkLongBrandList" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.HorizontalScrollTest.horizScrollToMountTitle" />
+      <item index="4" class="java.lang.String" itemvalue="Maven.DaddiesBsAuto [clean]" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.HorizontalScrollTest.horizScrollToMountTitle" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LongBrandListTest.checkLongBrandList" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LongboardsPage.getLongBrandList" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.AtLoginOrCreateAccPageElementsTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Maven.DaddiesBsAuto [clean]" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.HorizontalScrollTest.horizScrollToMountTitle" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LongBrandListTest.checkLongBrandList" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LongboardsPage.getLongBrandList" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AtLoginOrCreateAccPageElementsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -938,52 +597,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="123" column="32" lean-forward="false" selection-start-line="123" selection-start-column="32" selection-end-line="123" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/Longboards.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/MyAccDashboardPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Helper/Scroll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
           <folding>
-            <element signature="e#219#220#0" expanded="false" />
-            <element signature="e#266#267#0" expanded="false" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1033,9 +658,9 @@
         <state relative-caret-position="204">
           <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
-            <element signature="e#178#179#0" expanded="false" />
-            <element signature="e#207#208#0" expanded="false" />
-            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1176,14 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/OpenLongboardCategoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtCreateAccountPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1192,42 +809,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/MyRegisteredCustomer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LogInRegisteredCustomerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/Guest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="123" column="32" lean-forward="false" selection-start-line="123" selection-start-column="32" selection-end-line="123" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1245,14 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="163" column="31" lean-forward="false" selection-start-line="163" selection-start-column="31" selection-end-line="163" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -1277,38 +854,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/ApplicationHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.7.1/selenium-support-3.7.1.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementListHandler.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding>
-            <element signature="e#486#487#0" expanded="false" />
-            <element signature="e#564#565#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1320,54 +870,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Helper/Scroll.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="44" />
+        <state relative-caret-position="1326">
+          <caret line="123" column="32" lean-forward="false" selection-start-line="123" selection-start-column="32" selection-end-line="123" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtLongboardsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/MyAccDashboardNavMenuTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LogInRegisteredCustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="62" lean-forward="false" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/RegisterNewCustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Helper/Scroll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/MyRegisteredCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/LoginOrCreateAccPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/LongboardsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="391">
+          <caret line="39" column="46" lean-forward="false" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LongBrandListTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/ApplicationHeader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        <state relative-caret-position="68">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtMyAccDashboardPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HorizontalScrollTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtLongboardsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LongBrandListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/OpenLongboardCategoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

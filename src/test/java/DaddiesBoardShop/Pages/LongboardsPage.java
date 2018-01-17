@@ -25,7 +25,6 @@ public class LongboardsPage extends PageObject {
     @FindBy(css = "div.jspHorizontalBar div.jspDrag")
     public WebElement scrollHoriz;
 
-
     @Step
     public void openLongboardsPage() {
         open();
@@ -39,7 +38,7 @@ public class LongboardsPage extends PageObject {
 
     @Step
     public void horizScrollToMountainTitle() {
-        Scroll.tableHorizontalScroll(scrollHoriz, 250,0);
+        Scroll.tableDragAndDropScroll(scrollHoriz, 250,0);
         Assert.assertTrue(mountainTitle.isDisplayed());
     }
 

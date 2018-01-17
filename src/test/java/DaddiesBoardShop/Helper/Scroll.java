@@ -15,12 +15,12 @@ public class Scroll {
         javascriptExecutor.executeScript("arguments[0].scrollIntoView();", element);
     }
 
-    public static void windowScrollRight(int pixels) {
-        javascriptExecutor.executeScript("window.scrollBy(" + pixels + ",0)", "");
+    public static void windowScroll(int horizPixels, int vertPixels) {
+        javascriptExecutor.executeScript("window.scrollBy(" + horizPixels + ", "+ vertPixels+ ")", "");
     }
 
 
-    public static void tableHorizontalScroll(WebElement element, int horizPixels, int vertPixels) {
+    public static void tableDragAndDropScroll(WebElement element, int horizPixels, int vertPixels) {
         action.dragAndDropBy(element, horizPixels, vertPixels).build().perform();
     }
 

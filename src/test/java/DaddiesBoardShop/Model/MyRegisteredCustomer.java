@@ -4,8 +4,8 @@ public class MyRegisteredCustomer extends Customer {
 
     private String firstName = "Aliaksei";
     private String lastName = "Yarmalchuk";
-    private String emailAddress = "***";
-    private String password = "***";
+    private String emailAddress = "";
+    private String password = "";
 
     @Override
     public String getEmailAddress() {

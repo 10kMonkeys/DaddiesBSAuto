@@ -4,7 +4,7 @@ public class Customer {
 
     private String firstName;
     private String lastName;
-    private String emailAddress = "kuduk@youzend.net";
+    private String emailAddress = "nuheropixe@youzend.net";
     private String password = "qwerty1";
 
     public Customer() {

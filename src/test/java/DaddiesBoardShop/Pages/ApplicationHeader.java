@@ -15,7 +15,6 @@ public class ApplicationHeader extends PageObject {
     @FindBy(css = "ul.dropdown-menu li:first-child")
     public WebElement loginOrLogOutElem;
 
-    @Step
     public void userIsLogedOutVerification() {
         accountIcon.click();
 
@@ -25,7 +24,6 @@ public class ApplicationHeader extends PageObject {
         }
     }
 
-    @Step
     public void userIsLogedInVerification() {
         accountIcon.click();
 

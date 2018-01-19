@@ -19,11 +19,7 @@ public class Scroll {
         javascriptExecutor.executeScript("window.scrollBy(" + horizPixels + ", "+ vertPixels+ ")", "");
     }
 
-
     public static void tableDragAndDropScroll(WebElement element, int horizPixels, int vertPixels) {
         action.dragAndDropBy(element, horizPixels, vertPixels).build().perform();
     }
-
-
-
 }

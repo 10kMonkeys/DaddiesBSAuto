@@ -32,57 +32,46 @@ public class LoginOrCreateAccPage extends BasePage {
     @FindBy(css = "button.button[type=button]")
     public WebElement registerButton;
 
-    @Step
     public void openLoginAndCreateAccPage() {
         open();
     }
 
-    @Step
     public void fillEmailAdress(String email) {
         emailAddressInput.sendKeys(email);
     }
 
-    @Step
     public void fillPassword(String password) {
         passwordInput.sendKeys(password);
     }
 
-    @Step
     public void clickLoginButton() {
         loginButton.click();
     }
 
-    @Step
     public void clickRegistrationButton() {
         registerButton.click();
     }
 
-    @Step
     public void emailAddressInputIsDisplayed() {
         Assert.assertTrue(emailAddressInput.isDisplayed());
     }
 
-    @Step
     public void passwordInputIsDisplayed() {
         Assert.assertTrue(passwordInput.isDisplayed());
     }
 
-    @Step
     public void forgotTourPassIsDisplayed() {
         Assert.assertTrue(forgotYourPassLink.isDisplayed());
     }
 
-    @Step
     public void loginButtonIsDisplayed() {
         Assert.assertTrue(loginButton.isDisplayed());
     }
 
-    @Step
     public void registerButtonIsDisplayed() {
         Assert.assertTrue(registerButton.isDisplayed());
     }
 
-    @Step
     public void logInUser() {
         fillEmailAdress(regCustomer.getEmailAddress());
         fillPassword(regCustomer.getPassword());

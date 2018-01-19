@@ -42,77 +42,62 @@ public class CreateAccountPage extends BasePage {
         open();
     }
 
-    @Step
     public void fillFirstName(String firstName) {
         firstNameInput.sendKeys(firstName);
     }
 
-    @Step
     public void fillLastName(String lastName) {
         lastNameInput.sendKeys(lastName);
     }
 
-    @Step
     public void fillEmailAddress(String emailAddress) {
         emailAddressInput.sendKeys(emailAddress);
     }
 
-    @Step
     public void fillPassword(String emailAddress) {
         passwordInput.sendKeys(emailAddress);
     }
 
-    @Step
     public void fillConfirmPassword(String confirmPassword) {
         confirmPasswordInput.sendKeys(confirmPassword);
     }
 
-    @Step
     public void clickBackLink() {
         backLink.click();
     }
 
-    @Step
     public void clickSubmitButton() {
         submitButton.click();
     }
 
-    @Step
     public void firstNameInputIsDisplayed() {
         Assert.assertTrue(firstNameInput.isDisplayed());
     }
 
-    @Step
     public void lastNameInputIsDisplayed() {
         Assert.assertTrue(lastNameInput.isDisplayed());
     }
 
-    @Step
     public void emailAddressInputIsDisplayed() {
         Assert.assertTrue(emailAddressInput.isDisplayed());
     }
 
-    @Step
     public void passwordInputIsDisplayed() {
         Assert.assertTrue(passwordInput.isDisplayed());
     }
 
-    @Step
     public void confirmPasswordIsDisplayed() {
         Assert.assertTrue(confirmPasswordInput.isDisplayed());
     }
 
-    @Step
     public void backLinkIsDisplayed() {
         Assert.assertTrue(backLink.isDisplayed());
     }
 
-    @Step
     public void submitButtonIsDisplayed() {
         Assert.assertTrue((submitButton.isDisplayed()));
     }
 
-    @Step
     public void createCustomer() {
         Customer customer = Customer.newEntity();
         justRegCustomer = customer;

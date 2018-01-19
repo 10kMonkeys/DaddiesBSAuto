@@ -26,39 +26,32 @@ public class MyAccDashboardPage extends BasePage {
     @FindBy(css = "p.box-content")
     public WebElement customerData;
 
-    @Step
     public void openMyAccDashboardPage() {
         open();
     }
 
-    @Step
     public void finishRegMessageIsDisplayed() {
         Assert.assertTrue(finishRegMessage.isDisplayed());
     }
 
-    @Step
     public String getHelloCustomerMessageText() {
         return helloRegCustomerMessage.getText();
     }
 
-    @Step
     public String getCustomerDataText() {
         return customerData.getText();
     }
 
-    @Step
     public void checkHelloCustomMessage(String firstName, String lastName) {
         Assert.assertEquals("Hello, " + firstName + " " + lastName + "!", getHelloCustomerMessageText());
     }
 
-    @Step
     public void checkCustomerData(String firstName, String lastName, String emailAddress) {
         Assert.assertTrue(getCustomerDataText().contains(firstName));
         Assert.assertTrue(getCustomerDataText().contains(lastName));
         Assert.assertTrue(getCustomerDataText().contains(emailAddress));
     }
 
-    @Step
     public void checkJustRegCustomer() {
         finishRegMessageIsDisplayed();
 
@@ -70,7 +63,6 @@ public class MyAccDashboardPage extends BasePage {
                 CreateAccountPage.justRegCustomer.getEmailAddress());
     }
 
-    @Step
     public void checkRegCustomer() {
         checkHelloCustomMessage(customer.getFirstName(), customer.getLastName());
 

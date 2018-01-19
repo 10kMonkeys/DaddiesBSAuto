@@ -1,20 +1,32 @@
 package DaddiesBoardShop.Steps;
 
+import DaddiesBoardShop.Helper.Scroll;
 import DaddiesBoardShop.Pages.LongboardsPage;
+import net.thucydides.core.annotations.Step;
+import org.junit.Assert;
 
 public class AtLongboardsPage {
 
     LongboardsPage onPage;
 
+    @Step
     public void openLongboardsPage() {
-        onPage.open();
+        onPage.openLongboardsPage();
     }
 
-    public void getLongBrandList() {
-        onPage.scrollToOmenBrand();
+
+    @Step
+    public void checkPageNavigation() {
+        Assert.assertEquals("Home > Longboards",onPage.getPageNavigation().getText());
     }
 
-    public void getHorizonScrollMountainTitle() {
-        onPage.horizScrollToMountainTitle();
+    @Step
+    public void checkCategoryName() {
+        Assert.assertEquals("LONGBOARDS FROM DADDIESBOARDSHOP.COM", onPage.getCategoryName().getText());
+    }
+
+
+    public void TEST() {
+        onPage.TEST();
     }
 }

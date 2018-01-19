@@ -2,14 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2226639-0850-4b93-8653-ca131ca33ae7" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HomePageTests/ElementsAreDisplayedTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/MyTests/AtLoginOrCreateAccPageElementsTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/serenity.properties" afterPath="$PROJECT_DIR$/serenity.properties" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/Application.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/Application.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Helper/Scroll.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Helper/Scroll.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/Customer.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/Customer.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/Guest.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/MyRegisteredCustomer.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/MyRegisteredCustomer.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/ApplicationHeader.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/ApplicationHeader.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/CreateAccountPage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/CreateAccountPage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/HomePage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/HomePage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/LoginOrCreateAccPage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/LoginOrCreateAccPage.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/LongboardsPage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/LongboardsPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HorizontalScrollTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HorizontalScrollTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LongBrandListTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LongBrandListTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/OpenLongboardCategoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/OpenLongboardCategoryTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/MyAccDashboardPage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/MyAccDashboardPage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/MyAccountNavigationMenu.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/MyAccountNavigationMenu.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtHomePage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtHomePage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtLongboardsPage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtLongboardsPage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/AtLoginOrCreateAccPageElementsTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HorizontalScrollTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/MyTests/HorizontalScrollTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LogInRegisteredCustomerTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/MyTests/LogInRegisteredCustomerTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LongBrandListTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/MyAccDashboardNavMenuTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/MyTests/MyAccDashboardNavMenuTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/OpenLongboardCategoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/MyTests/OpenLongboardCategoryTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/RegisterNewCustomerTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/RegisterNewCustomerTest.java" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/0f5b31ae55d96b4fbc108ff37687fb879231fb161a8cc4ccaaf2d0febd7c5bd1.html" afterPath="" />
@@ -19,10 +36,10 @@
       <change beforePath="$PROJECT_DIR$/target/site/serenity/8554d7413d418ef50c1c7e0b1f5dd166d5f3841ec0130c1eb4a3aa55e27fdedc.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/93a56ff3651f6f50e018ffe131684e2d1367e1cdaf74279f4cdd087ae81fca5c.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-0f5b31ae55d96b4fbc108ff37687fb879231fb161a8cc4ccaaf2d0febd7c5bd1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-a381d7c91b64b3ff17439709655c6f44dc4841993bcedbe15cdb23445df7fe0f.xml" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-a381d7c91b64b3ff17439709655c6f44dc4841993bcedbe15cdb23445df7fe0f.xml" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-a381d7c91b64b3ff17439709655c6f44dc4841993bcedbe15cdb23445df7fe0f.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-b72a4c31200092e8fef993798f01754049341a2d03c5cb3e00985a92cee3007f.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/a381d7c91b64b3ff17439709655c6f44dc4841993bcedbe15cdb23445df7fe0f.html" afterPath="$PROJECT_DIR$/target/site/serenity/a381d7c91b64b3ff17439709655c6f44dc4841993bcedbe15cdb23445df7fe0f.html" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/a381d7c91b64b3ff17439709655c6f44dc4841993bcedbe15cdb23445df7fe0f.json" afterPath="$PROJECT_DIR$/target/site/serenity/a381d7c91b64b3ff17439709655c6f44dc4841993bcedbe15cdb23445df7fe0f.json" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/a381d7c91b64b3ff17439709655c6f44dc4841993bcedbe15cdb23445df7fe0f.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/a381d7c91b64b3ff17439709655c6f44dc4841993bcedbe15cdb23445df7fe0f.json" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/a381d7c91b64b3ff17439709655c6f44dc4841993bcedbe15cdb23445df7fe0f_screenshots.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/b5503775e559935b7a3a372a823d22366e5d68a74998a75e0df4ff2af168cd4a.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/b72a4c31200092e8fef993798f01754049341a2d03c5cb3e00985a92cee3007f.html" afterPath="" />
@@ -40,17 +57,28 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/2018-01-15T18-09-08_168-jvmRun1.dump" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/2018-01-15T18-09-08_168-jvmRun1.dumpstream" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/2018-01-15T18-09-09_164.dumpstream" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/DaddiesBoardShop.Tests.AtLoginOrCreateAccPageElementsTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/DaddiesBoardShop.Tests.AtLoginOrCreateAccPageElementsTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DaddiesBoardShop.Tests.AtLoginOrCreateAccPageElementsTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-DaddiesBoardShop.Tests.AtLoginOrCreateAccPageElementsTest.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/DaddiesBoardShop.Tests.AtLoginOrCreateAccPageElementsTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DaddiesBoardShop.Tests.AtLoginOrCreateAccPageElementsTest.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Application/Application.class" afterPath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Application/Application.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Helper/JSExecuter.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Model/Customer.class" afterPath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Model/Customer.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Model/Guest.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Model/MyRegisteredCustomer.class" afterPath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Model/MyRegisteredCustomer.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/ApplicationHeader.class" afterPath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/ApplicationHeader.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/CreateAccountPage.class" afterPath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/CreateAccountPage.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/HomePage.class" afterPath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/HomePage.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/LoginOrCreateAccPage.class" afterPath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/LoginOrCreateAccPage.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/LongboardsPage.class" afterPath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/LongboardsPage.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/MyAccDashboardPage.class" afterPath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/MyAccDashboardPage.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/MyAccountNavigationMenu.class" afterPath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Pages/MyAccountNavigationMenu.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Steps/AtHomePage.class" afterPath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Steps/AtHomePage.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Steps/AtLongboardsPage.class" afterPath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Steps/AtLongboardsPage.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Tests/LongBrandListTest.class" afterPath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Tests/LongBrandListTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Tests/OpenLongboardCategoryTest.class" afterPath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Tests/OpenLongboardCategoryTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Tests/AtLoginOrCreateAccPageElementsTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Tests/LogInRegisteredCustomerTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Tests/LongBrandListTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Tests/MyAccDashboardNavMenuTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Tests/OpenLongboardCategoryTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Tests/RegisterNewCustomerTest.class" afterPath="$PROJECT_DIR$/target/test-classes/DaddiesBoardShop/Tests/RegisterNewCustomerTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,67 +91,75 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AtMyAccDashboardPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtMyAccDashboardPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AtLongboardsPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtLongboardsPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-              <folding>
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LongBrandListTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LongBrandListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OpenLongboardCategoryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/OpenLongboardCategoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AtHomePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtHomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-              <folding>
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="205">
+              <caret line="106" column="72" lean-forward="false" selection-start-line="106" selection-start-column="72" selection-end-line="106" selection-end-column="72" />
+              <folding>
+                <element signature="e#1720#1721#0" expanded="true" />
+                <element signature="e#1742#1743#0" expanded="true" />
+                <element signature="e#1792#1793#0" expanded="true" />
+                <element signature="e#1843#1844#0" expanded="true" />
+                <element signature="e#1899#1900#0" expanded="true" />
+                <element signature="e#1956#1957#0" expanded="true" />
+                <element signature="e#2011#2012#0" expanded="true" />
+                <element signature="e#2067#2068#0" expanded="true" />
+                <element signature="e#2120#2121#0" expanded="true" />
+                <element signature="e#2174#2175#0" expanded="true" />
+                <element signature="e#2221#2222#0" expanded="true" />
+                <element signature="e#2269#2270#0" expanded="true" />
+                <element signature="e#2323#2324#0" expanded="true" />
+                <element signature="e#2396#2397#0" expanded="true" />
+                <element signature="e#2447#2448#0" expanded="true" />
+                <element signature="e#2516#2517#0" expanded="true" />
+                <element signature="e#2849#2850#0" expanded="true" />
+                <element signature="e#2920#2921#0" expanded="true" />
+                <element signature="e#2973#2974#0" expanded="true" />
+                <element signature="e#3044#3045#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AtHomePage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtHomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+              <folding>
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/TextData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ElementsAreDisplayedTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HomePageTests/ElementsAreDisplayedTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextDataAreCorrectTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HomePageTests/TextDataAreCorrectTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -138,6 +174,13 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>post-integration-test</find>
+      <find>maven-surefire-plugin</find>
+      <find>public List&lt;WebElement&gt;</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -149,22 +192,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LogInRegisteredCustomerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/Longboards.java" />
         <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/Application.java" />
         <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Helper/JSExecuter.java" />
-        <option value="$PROJECT_DIR$/serenity.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtLongboardsPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Helper/Scroll.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/Customer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/LongboardsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/Guest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/RegisteredCustomer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/AtLoginOrCreateAccPageElementsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HorizontalScrollTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/MyRegisteredCustomer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LogInRegisteredCustomerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LongBrandListTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/MyAccDashboardNavMenuTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/OpenLongboardCategoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/MyTests/RegisterNewCustomerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/ATTESTPAGE.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/PageTestHelper/HomePageTestHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HomePageTests/TextDataIsCorrectTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/ApplicationHeader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/CreateAccountPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/LoginOrCreateAccPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/MyAccDashboardPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/MyAccountNavigationMenu.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/Customer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/MyRegisteredCustomer.java" />
+        <option value="$PROJECT_DIR$/serenity.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/AddPurchaseToCart.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/Application.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtOrangatangPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/OrangatangPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Helper/Scroll.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/User.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HomePageTests/TextDataAreCorrectTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/PageTestData/HomePageTestData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/PageTestData/TextTestData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/TextTestData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HomePageTests/RedirectTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HomePageTests/RedirectToLongPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/MyTests/AtLoginOrCreateAccPageElementsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/MyTests/LogInRegisteredCustomerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/MyTests/MyAccDashboardNavMenuTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/MyTests/OpenLongboardCategoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/RegisterNewCustomerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/MyTests/LongBrandListTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/MyTests/HorizontalScrollTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/TEST.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/SortByControl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/WorkWithLists.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/SortBySection.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/LongboardsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtLongboardsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HomePageTests/ElementsAreDisplayedTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/TextData.java" />
         <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtHomePage.java" />
       </list>
     </option>
   </component>
@@ -184,7 +262,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -240,6 +318,61 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DaddiesBsAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DaddiesBsAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
+              <item name="Helper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DaddiesBsAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DaddiesBsAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DaddiesBsAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DaddiesBsAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DaddiesBsAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DaddiesBsAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
+              <item name="Steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DaddiesBsAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DaddiesBsAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DaddiesBsAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DaddiesBsAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="HomePageTests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -253,6 +386,9 @@
     <property name="SearchEverywhereHistoryKey" value="getDriver&#9;PSI&#9;JAVA://net.serenitybdd.core.Serenity#getDriver" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="DaddiesBoardShop.Application" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\MyProjects\DaddiesBsAuto\src\test\java" />
     </key>
@@ -269,7 +405,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.DaddiesBsAuto [clean]">
+  <component name="RunManager" selected="JUnit.ElementsAreDisplayedTest.checkAllElemsAreDisplayed">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -291,44 +427,19 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="AtLoginOrCreateAccPageElementsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ElementsAreDisplayedTest.checkAllElemsAreDisplayed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="DaddiesBoardShop.Tests.*" />
+          <option name="PATTERN" value="DaddiesBoardShop.Tests.HomePageTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="DaddiesBsAuto" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DaddiesBoardShop.Tests" />
-      <option name="MAIN_CLASS_NAME" value="DaddiesBoardShop.Tests.AtLoginOrCreateAccPageElementsTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="HorizontalScrollTest.horizScrollToMountTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="DaddiesBoardShop.Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="DaddiesBsAuto" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DaddiesBoardShop.Tests" />
-      <option name="MAIN_CLASS_NAME" value="DaddiesBoardShop.Tests.HorizontalScrollTest" />
-      <option name="METHOD_NAME" value="horizScrollToMountTitle" />
+      <option name="PACKAGE_NAME" value="DaddiesBoardShop.Tests.HomePageTests" />
+      <option name="MAIN_CLASS_NAME" value="DaddiesBoardShop.Tests.HomePageTests.ElementsAreDisplayedTest" />
+      <option name="METHOD_NAME" value="checkAllElemsAreDisplayed" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -341,19 +452,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="LongBrandListTest.checkLongBrandList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RedirectToLongPageTest.checkRedirectToLongPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="DaddiesBoardShop.Tests.*" />
+          <option name="PATTERN" value="DaddiesBoardShop.Tests.HomePageTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="DaddiesBsAuto" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DaddiesBoardShop.Tests" />
-      <option name="MAIN_CLASS_NAME" value="DaddiesBoardShop.Tests.LongBrandListTest" />
-      <option name="METHOD_NAME" value="checkLongBrandList" />
+      <option name="PACKAGE_NAME" value="DaddiesBoardShop.Tests.HomePageTests" />
+      <option name="MAIN_CLASS_NAME" value="DaddiesBoardShop.Tests.HomePageTests.RedirectToLongPageTest" />
+      <option name="METHOD_NAME" value="checkRedirectToLongPage" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -366,19 +477,69 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="LongboardsPage.getLongBrandList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegisterNewCustomerTest.registerNewCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="DaddiesBoardShop.Pages.*" />
+          <option name="PATTERN" value="DaddiesBoardShop.Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="DaddiesBsAuto" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DaddiesBoardShop.Pages" />
-      <option name="MAIN_CLASS_NAME" value="DaddiesBoardShop.Pages.LongboardsPage" />
-      <option name="METHOD_NAME" value="getLongBrandList" />
+      <option name="PACKAGE_NAME" value="DaddiesBoardShop.Tests" />
+      <option name="MAIN_CLASS_NAME" value="DaddiesBoardShop.Tests.RegisterNewCustomerTest" />
+      <option name="METHOD_NAME" value="registerNewCustomer" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TEST.testmethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="DaddiesBoardShop.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DaddiesBsAuto" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="DaddiesBoardShop.Tests" />
+      <option name="MAIN_CLASS_NAME" value="DaddiesBoardShop.Tests.TEST" />
+      <option name="METHOD_NAME" value="testmethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TextDataAreCorrectTest.checkAllDataAreCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="DaddiesBoardShop.Tests.HomePageTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DaddiesBsAuto" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="DaddiesBoardShop.Tests.HomePageTests" />
+      <option name="MAIN_CLASS_NAME" value="DaddiesBoardShop.Tests.HomePageTests.TextDataAreCorrectTest" />
+      <option name="METHOD_NAME" value="checkAllDataAreCorrect" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -410,29 +571,6 @@
       </option>
       <envs />
       <patterns />
-    </configuration>
-    <configuration name="DaddiesBsAuto [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="clean" />
-              </list>
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -475,19 +613,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.AtLoginOrCreateAccPageElementsTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LongboardsPage.getLongBrandList" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LongBrandListTest.checkLongBrandList" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.HorizontalScrollTest.horizScrollToMountTitle" />
-      <item index="4" class="java.lang.String" itemvalue="Maven.DaddiesBsAuto [clean]" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TEST.testmethod" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RegisterNewCustomerTest.registerNewCustomer" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RedirectToLongPageTest.checkRedirectToLongPage" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ElementsAreDisplayedTest.checkAllElemsAreDisplayed" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TextDataAreCorrectTest.checkAllDataAreCorrect" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Maven.DaddiesBsAuto [clean]" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.HorizontalScrollTest.horizScrollToMountTitle" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LongBrandListTest.checkLongBrandList" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.LongboardsPage.getLongBrandList" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AtLoginOrCreateAccPageElementsTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ElementsAreDisplayedTest.checkAllElemsAreDisplayed" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TextDataAreCorrectTest.checkAllDataAreCorrect" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TEST.testmethod" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RedirectToLongPageTest.checkRedirectToLongPage" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RegisterNewCustomerTest.registerNewCustomer" />
       </list>
     </recent_temporary>
   </component>
@@ -508,39 +646,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HorizontalScrollTest_horizScrollToMountTitle - 2018.01.16 at 18h 22m 38s.xml">
-      <configuration name="HorizontalScrollTest.horizScrollToMountTitle" configurationId="JUnit" />
+    <history-entry file="ElementsAreDisplayedTest_checkAllElemsAreDisplayed - 2018.01.19 at 17h 35m 50s.xml">
+      <configuration name="ElementsAreDisplayedTest.checkAllElemsAreDisplayed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongBrandListTest_checkLongBrandList - 2018.01.16 at 18h 01m 00s.xml">
-      <configuration name="LongBrandListTest.checkLongBrandList" configurationId="JUnit" />
+    <history-entry file="ElementsAreDisplayedTest_checkAllElemsAreDisplayed - 2018.01.19 at 17h 38m 14s.xml">
+      <configuration name="ElementsAreDisplayedTest.checkAllElemsAreDisplayed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongBrandListTest_checkLongBrandList - 2018.01.16 at 18h 01m 31s.xml">
-      <configuration name="LongBrandListTest.checkLongBrandList" configurationId="JUnit" />
+    <history-entry file="ElementsAreDisplayedTest_checkAllElemsAreDisplayed - 2018.01.19 at 17h 39m 55s.xml">
+      <configuration name="ElementsAreDisplayedTest.checkAllElemsAreDisplayed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongBrandListTest_checkLongBrandList - 2018.01.16 at 18h 02m 09s.xml">
-      <configuration name="LongBrandListTest.checkLongBrandList" configurationId="JUnit" />
+    <history-entry file="ElementsAreDisplayedTest_checkAllElemsAreDisplayed - 2018.01.19 at 17h 41m 13s.xml">
+      <configuration name="ElementsAreDisplayedTest.checkAllElemsAreDisplayed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongBrandListTest_checkLongBrandList - 2018.01.16 at 18h 03m 32s.xml">
-      <configuration name="LongBrandListTest.checkLongBrandList" configurationId="JUnit" />
+    <history-entry file="ElementsAreDisplayedTest_checkAllElemsAreDisplayed - 2018.01.19 at 18h 03m 32s.xml">
+      <configuration name="ElementsAreDisplayedTest.checkAllElemsAreDisplayed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongBrandListTest_checkLongBrandList - 2018.01.16 at 18h 03m 41s.xml">
-      <configuration name="LongBrandListTest.checkLongBrandList" configurationId="JUnit" />
+    <history-entry file="TEST_testmethod - 2018.01.19 at 10h 06m 04s.xml">
+      <configuration name="TEST.testmethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongBrandListTest_checkLongBrandList - 2018.01.16 at 18h 04m 00s.xml">
-      <configuration name="LongBrandListTest.checkLongBrandList" configurationId="JUnit" />
+    <history-entry file="TEST_testmethod - 2018.01.19 at 10h 07m 01s.xml">
+      <configuration name="TEST.testmethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongBrandListTest_checkLongBrandList - 2018.01.16 at 18h 04m 50s.xml">
-      <configuration name="LongBrandListTest.checkLongBrandList" configurationId="JUnit" />
+    <history-entry file="TEST_testmethod - 2018.01.19 at 10h 07m 57s.xml">
+      <configuration name="TEST.testmethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongBrandListTest_checkLongBrandList - 2018.01.16 at 18h 05m 01s.xml">
-      <configuration name="LongBrandListTest.checkLongBrandList" configurationId="JUnit" />
+    <history-entry file="TextDataAreCorrectTest_checkAllDataAreCorrect - 2018.01.19 at 17h 36m 09s.xml">
+      <configuration name="TextDataAreCorrectTest.checkAllDataAreCorrect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongBrandListTest_checkLongBrandList - 2018.01.16 at 18h 05m 17s.xml">
-      <configuration name="LongBrandListTest.checkLongBrandList" configurationId="JUnit" />
+    <history-entry file="TextDataAreCorrectTest_checkAllDataAreCorrect - 2018.01.19 at 17h 36m 35s.xml">
+      <configuration name="TextDataAreCorrectTest.checkAllDataAreCorrect" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -550,7 +688,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31847826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -597,186 +735,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/ApplicationHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="31" column="45" lean-forward="false" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/LongboardsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtLongboardsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LongBrandListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/MyAccountNavigationMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/ApplicationHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/OpenLongboardCategoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtCreateAccountPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/Longboards.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/MyRegisteredCustomer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LogInRegisteredCustomerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/Guest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenity.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="515">
@@ -793,63 +756,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/MyAccountNavigationMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtCreateAccountPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/Guest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/Longboards.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/MyAccDashboardPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.7.4/serenity-core-1.7.4.jar!/net/serenitybdd/core/Serenity.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="163" column="31" lean-forward="false" selection-start-line="163" selection-start-column="31" selection-end-line="163" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#200#201#0" expanded="false" />
-            <element signature="e#229#230#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.7.1/selenium-api-3.7.1.jar!/org/openqa/selenium/WebElement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -862,161 +773,426 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serenity.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="123" column="32" lean-forward="false" selection-start-line="123" selection-start-column="32" selection-end-line="123" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/MyAccDashboardNavMenuTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LogInRegisteredCustomerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="62" lean-forward="false" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/RegisterNewCustomerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Helper/Scroll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/Customer.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/Guest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/RegisteredCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/Guest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/BaseUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/ATTESTPAGE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="65" lean-forward="true" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/InApplicationHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="e#242#243#0" expanded="false" />
+            <element signature="e#294#295#0" expanded="false" />
+            <element signature="e#343#344#0" expanded="false" />
+            <element signature="e#396#397#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/AddPurchaseToCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/MyRegisteredCustomer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/LoginOrCreateAccPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="119">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/LongboardsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtOrangatangPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="39" column="46" lean-forward="false" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+        <state relative-caret-position="153">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/ApplicationHeader.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/OrangatangPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="272">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/MyAccDashboardPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="54" column="16" lean-forward="false" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtMyAccDashboardPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="187">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#357#358#0" expanded="false" />
+            <element signature="e#402#403#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtLoginOrCreateAccPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HorizontalScrollTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/PageTestData/LongboardsPageTestData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/ApplicationHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/MyTests/AtLoginOrCreateAccPageElementsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="36" />
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/MyTests/LogInRegisteredCustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/RegisterNewCustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/MyTests/OpenLongboardCategoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/MyTests/MyAccDashboardNavMenuTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="113" column="31" lean-forward="false" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Helper/Scroll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="569" column="6" lean-forward="false" selection-start-line="569" selection-start-column="6" selection-end-line="569" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/TEST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/MyTests/HorizontalScrollTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/MyTests/LongBrandListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/WorkWithLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/SortBySection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/CreateAccountPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+          <folding>
+            <element signature="e#1422#1423#0" expanded="false" />
+            <element signature="e#1478#1479#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtCreateAccountPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="e#330#331#0" expanded="false" />
+            <element signature="e#369#370#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/MyAccountNavigationMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/LongboardsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#671#672#0" expanded="false" />
+            <element signature="e#708#709#0" expanded="false" />
+            <element signature="e#751#752#0" expanded="false" />
+            <element signature="e#786#787#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.7.1/selenium-api-3.7.1.jar!/org/openqa/selenium/WebElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtLongboardsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="357">
+          <caret line="24" column="104" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="104" />
           <folding>
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="false" />
+            <element signature="e#340#341#0" expanded="false" />
+            <element signature="e#392#393#0" expanded="false" />
+            <element signature="e#485#486#0" expanded="false" />
+            <element signature="e#672#673#0" expanded="false" />
+            <element signature="e#701#702#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LongBrandListTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HomePageTests/RedirectToLongPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        <state relative-caret-position="153">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/OpenLongboardCategoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HomePageTests/TextDataAreCorrectTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="170">
+          <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/TextData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="106" column="72" lean-forward="false" selection-start-line="106" selection-start-column="72" selection-end-line="106" selection-end-column="72" />
+          <folding>
+            <element signature="e#1720#1721#0" expanded="true" />
+            <element signature="e#1742#1743#0" expanded="true" />
+            <element signature="e#1792#1793#0" expanded="true" />
+            <element signature="e#1843#1844#0" expanded="true" />
+            <element signature="e#1899#1900#0" expanded="true" />
+            <element signature="e#1956#1957#0" expanded="true" />
+            <element signature="e#2011#2012#0" expanded="true" />
+            <element signature="e#2067#2068#0" expanded="true" />
+            <element signature="e#2120#2121#0" expanded="true" />
+            <element signature="e#2174#2175#0" expanded="true" />
+            <element signature="e#2221#2222#0" expanded="true" />
+            <element signature="e#2269#2270#0" expanded="true" />
+            <element signature="e#2323#2324#0" expanded="true" />
+            <element signature="e#2396#2397#0" expanded="true" />
+            <element signature="e#2447#2448#0" expanded="true" />
+            <element signature="e#2516#2517#0" expanded="true" />
+            <element signature="e#2849#2850#0" expanded="true" />
+            <element signature="e#2920#2921#0" expanded="true" />
+            <element signature="e#2973#2974#0" expanded="true" />
+            <element signature="e#3044#3045#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HomePageTests/ElementsAreDisplayedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="148">
+          <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
           <folding>
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

@@ -1,7 +1,7 @@
-package DaddiesBoardShop.Steps;
+package DaddiesBoardShop.Steps.AtPage;
 
-import DaddiesBoardShop.Pages.MyAccDashboardPage;
-import DaddiesBoardShop.Pages.MyAccountNavigationMenu;
+import DaddiesBoardShop.Pages.Page.MyAccDashboardPage;
+import DaddiesBoardShop.Pages.SectionAndMenu.MyAccountNavigationMenu;
 import net.thucydides.core.annotations.Step;
 
 public class AtMyAccDashboardPage {

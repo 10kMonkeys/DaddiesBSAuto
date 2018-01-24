@@ -8,7 +8,9 @@ public class TEST extends Application{
     @Test
     public void testmethod() {
         user.atLongboardsPage.openLongboardsPage();
-        user.atLongboardsPage.checkPageNavigation();
+        user.inProductSection.TEST();
+//        user.inPurchaseSortBySection.clickOnPriceHighSort();
+//        user.inProductSection.TEST();
 
     }
 }

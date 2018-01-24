@@ -1,6 +1,6 @@
-package DaddiesBoardShop.Steps;
+package DaddiesBoardShop.Steps.AtPage;
 
-import DaddiesBoardShop.Pages.LoginOrCreateAccPage;
+import DaddiesBoardShop.Pages.Page.LoginOrCreateAccPage;
 import net.thucydides.core.annotations.Step;
 
 public class AtLoginOrCreateAccPage {

@@ -1,4 +1,4 @@
-package DaddiesBoardShop.Pages;
+package DaddiesBoardShop.Pages.Page;
 
 import net.serenitybdd.core.pages.PageObject;
 import org.openqa.selenium.WebDriver;

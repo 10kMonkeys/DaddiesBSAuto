@@ -1,8 +1,7 @@
-package DaddiesBoardShop.Pages;
+package DaddiesBoardShop.Pages.Page;
 
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
-import net.thucydides.core.annotations.Step;
 import org.openqa.selenium.WebElement;
 
 public class ApplicationHeader extends PageObject {

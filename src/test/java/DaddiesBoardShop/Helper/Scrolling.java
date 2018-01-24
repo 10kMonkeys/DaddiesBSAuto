@@ -6,7 +6,7 @@ import org.openqa.selenium.interactions.Actions;
 
 import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getDriver;
 
-public class Scroll {
+public class Scrolling {
 
     static JavascriptExecutor javascriptExecutor = (JavascriptExecutor) getDriver();
     static Actions action = new Actions(getDriver());
@@ -22,4 +22,10 @@ public class Scroll {
     public static void tableDragAndDropScroll(WebElement element, int horizPixels, int vertPixels) {
         action.dragAndDropBy(element, horizPixels, vertPixels).build().perform();
     }
+
+    public static void jsClickOn() {
+        javascriptExecutor.executeScript("$(#narrow-by-list .amshopby-advanced .amshopby-cat.has-child .button).click();");
+
+    }
+
 }

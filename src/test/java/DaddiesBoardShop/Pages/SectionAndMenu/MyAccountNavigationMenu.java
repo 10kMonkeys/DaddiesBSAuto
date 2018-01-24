@@ -1,5 +1,6 @@
-package DaddiesBoardShop.Pages;
+package DaddiesBoardShop.Pages.SectionAndMenu;
 
+import DaddiesBoardShop.Pages.Page.BasePage;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.thucydides.core.annotations.Step;
 import org.junit.Assert;

@@ -1,7 +1,7 @@
-package DaddiesBoardShop.Steps;
+package DaddiesBoardShop.Steps.AtPage;
 
 import DaddiesBoardShop.Model.TextData;
-import DaddiesBoardShop.Pages.HomePage;
+import DaddiesBoardShop.Pages.Page.HomePage;
 import net.thucydides.core.annotations.Step;
 import org.junit.Assert;
 
@@ -32,7 +32,7 @@ public class AtHomePage {
     }
 
     @Step
-    public void checkAllElementTextData() {
+    public void checkAllElementsTextData() {
         Assert.assertEquals(TextData.expectedSectionTitles[0], onPage.getSectionTitlesListText(0));
         Assert.assertEquals(TextData.expectedSectionTitles[1], onPage.getSectionTitlesListText(1));
 
@@ -48,11 +48,6 @@ public class AtHomePage {
         Assert.assertEquals(TextData.expectedPopularCategoriesTitles[4], onPage.getPopularCategoriesTitlesListText(4));
         Assert.assertEquals(TextData.expectedPopularCategoriesTitles[5], onPage.getPopularCategoriesTitlesListText(5));
     }
-
-//    @Step
-//    public void clickOnLongboardsImage() {
-//        onPage.getLongboardsCategoryPic().click();
-//    }
 
 //REMOVE AFTER REFACTOR
     @Step

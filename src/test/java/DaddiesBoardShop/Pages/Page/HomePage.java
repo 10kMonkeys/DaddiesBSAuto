@@ -1,11 +1,10 @@
-package DaddiesBoardShop.Pages;
+package DaddiesBoardShop.Pages.Page;
 
-import DaddiesBoardShop.Helper.Scroll;
+import DaddiesBoardShop.Helper.Scrolling;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.annotations.Step;
-import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import java.util.List;
 
@@ -132,7 +131,7 @@ public class HomePage extends PageObject {
     @Step
     public void openLongboardsCategory() {
         openHomePage();
-        Scroll.ScrollToElementOnPage(longboardsCategory);
+        Scrolling.ScrollToElementOnPage(longboardsCategory);
         longboardsCategory.click();
     }
 }

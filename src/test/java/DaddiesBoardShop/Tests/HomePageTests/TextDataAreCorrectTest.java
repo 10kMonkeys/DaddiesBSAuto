@@ -10,6 +10,6 @@ public class TextDataAreCorrectTest extends Application{
     @Test
     public void checkAllDataAreCorrect() {
         user.atHomePage.openPage();
-        user.atHomePage.checkAllElementTextData();
+        user.atHomePage.checkAllElementsTextData();
     }
 }

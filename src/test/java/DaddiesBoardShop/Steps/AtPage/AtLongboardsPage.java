@@ -1,7 +1,6 @@
-package DaddiesBoardShop.Steps;
+package DaddiesBoardShop.Steps.AtPage;
 
-import DaddiesBoardShop.Helper.Scroll;
-import DaddiesBoardShop.Pages.LongboardsPage;
+import DaddiesBoardShop.Pages.Page.LongboardsPage;
 import net.thucydides.core.annotations.Step;
 import org.junit.Assert;
 
@@ -23,10 +22,5 @@ public class AtLongboardsPage {
     @Step
     public void checkCategoryName() {
         Assert.assertEquals("LONGBOARDS FROM DADDIESBOARDSHOP.COM", onPage.getCategoryName().getText());
-    }
-
-
-    public void TEST() {
-        onPage.TEST();
     }
 }

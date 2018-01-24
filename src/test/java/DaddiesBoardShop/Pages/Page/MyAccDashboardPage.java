@@ -1,9 +1,8 @@
-package DaddiesBoardShop.Pages;
+package DaddiesBoardShop.Pages.Page;
 
 import DaddiesBoardShop.Model.MyRegisteredCustomer;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.thucydides.core.annotations.DefaultUrl;
-import net.thucydides.core.annotations.Step;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

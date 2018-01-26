@@ -13,17 +13,10 @@ import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getDriver
 @RunWith(SerenityRunner.class)
 public class Application {
 
-    public WebDriverWait wait;
-
     @Managed
     WebDriver driver;
 
     @Steps
     public User user;
-
-    @Before
-    public void start() {
-        wait = new WebDriverWait(getDriver(), 10);
-    }
 }
  

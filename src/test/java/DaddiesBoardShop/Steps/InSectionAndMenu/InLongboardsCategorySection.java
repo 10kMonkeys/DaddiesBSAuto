@@ -17,4 +17,9 @@ public class InLongboardsCategorySection {
 
         inSection.compareActualAndExpectedCategories(TextData.expectedLongboardCategories, inSection.getCategoriesList());
     }
+
+    @Step
+    public void clickOnDecksOnlyCategory() {
+        inSection.clickOnDecksOnlyCategory();
+    }
 }

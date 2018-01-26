@@ -57,8 +57,8 @@ public class PurchaseSortBySection extends PageObject {
         priceLowSort.click();
     }
 
-    public void clickOnpriceHighSort() {
-        priceHighSort.click();
+    public void clickOnPriceLowSort() {
+        priceLowSort.click();
     }
 
     public String getSortByTitleText() {

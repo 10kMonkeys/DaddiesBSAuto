@@ -9,7 +9,6 @@ import java.util.List;
 public class PurchaseCategorySection extends PageObject {
 
 
-
     @FindBy(css = "div#Category_title")
     public WebElement categoriesTitle;
 
@@ -31,6 +30,9 @@ public class PurchaseCategorySection extends PageObject {
     @FindBy(css = "#narrow-by-list .amshopby-advanced .amshopby-cat.has-child .button:after")
     public WebElement icon;
 
+    @FindBy(css = "li.amshopby-advanced > ol > li:nth-child(2) a")
+    public WebElement decksOnlyCategory;
+
     public List<WebElement> getCategoriesList() {
         return categoriesList;
     }
@@ -43,8 +45,8 @@ public class PurchaseCategorySection extends PageObject {
         return categoriesList.get(category);
     }
 
-    public void clickOnCategory(WebElement element) {
-        element.click();
+    public void clickOnDecksOnlyCategory() {
+        element(decksOnlyCategory).click();
     }
 
     public boolean categoriesTitleIsDisplayed() {

@@ -5,11 +5,12 @@ import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.annotations.Step;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import java.util.List;
 
 @DefaultUrl("https://www.daddiesboardshop.com/")
-public class HomePage extends PageObject {
+public class HomePage extends BasePage {
 
     @FindBy(css = "div.homepage-row div.homepage-banner img")
     public WebElement homePageBanner;
@@ -49,6 +50,10 @@ public class HomePage extends PageObject {
 
     @FindBy(css = "div.home-about-daddies a")
     public WebElement checkItLink;
+
+    public HomePage(WebDriver driver) {
+        super(driver);
+    }
 
     public void openHomePage() {
         open();

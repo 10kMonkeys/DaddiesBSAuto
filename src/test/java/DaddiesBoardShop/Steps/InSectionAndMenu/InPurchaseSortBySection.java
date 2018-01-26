@@ -20,7 +20,7 @@ public class InPurchaseSortBySection {
     }
 
     @Step
-    public void clickOnPriceHighSort() {
-        inSection.clickOnpriceHighSort();
+    public void clickOnPriceLowSort() {
+        inSection.clickOnPriceLowSort();
     }
 }

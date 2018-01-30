@@ -7,7 +7,7 @@ import org.junit.Test;
 @Ignore
 public class RegisterNewCustomerTest extends Application {
 
-    @Test
+
     public void registerNewCustomer() {
         user.atHomePage.openPage();
         user.inApplicationHeader.checkUserIsLogIn();

@@ -1,27 +1,21 @@
 package DaddiesBoardShop.Pages.SectionAndMenu;
 
-
-import DaddiesBoardShop.Helper.Scrolling;
+import DaddiesBoardShop.Pages.Page.BasePage;
+import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.core.annotations.findby.FindBy;
-import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.WhenPageOpens;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class ProductsSection extends PageObject {
+public class ProductsSection extends BasePage {
 
     public static int pagesQty;
-    WebDriver driver = getDriver();
 
-    WebDriverWait wait = new WebDriverWait(driver, 5);
+//    WebDriverWait wait = new WebDriverWait(driver, 5);
 //                wait.until(ExpectedConditions.elementToBeClickable(nextButton));
 
     @FindBy(xpath = "//*[contains(@class,'products-grid')]/div")
@@ -47,6 +41,9 @@ public class ProductsSection extends PageObject {
 
     @FindBy(css = "#amshopby-page-container > div.category-products > div.pager-bottom > div > div.pages > ol > li:last-child > a")
     private WebElement nextButton;
+
+    @FindBy(css = "div.amshopby-page-container div.amshopby-overlay")
+    private WebElement pageLoader;
 
     @WhenPageOpens
     public void waitCategoryAppears() {
@@ -76,21 +73,23 @@ public class ProductsSection extends PageObject {
         pagesQty = Integer.parseInt(lastPageStringValue);
     }
 
-    public void compareTwoLists(List<Double> tempList1, List<Double> sortedList ) {
-
-    }
-
     public void goToNextPage() {
-//        Scrolling.ScrollToElementOnPage(nextButton);
 //        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#amshopby-page-container > div.category-products > div.pager-bottom > div > div.pages > ol > li:last-child > a")));
-//        wait.until(ExpectedConditions.elementToBeClickable(nextButton));
+//        Scrolling.ScrollToElementOnPage(nextButton);
+
+//        wait.until(ExpectedConditions.elementToBeClickable(nextPageArrow));
+//        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#amshopby-page-container > div.category-products > div.pager-bottom > div > div.pages > ol > li:last-child > a")));
         element(nextButton).click();
-//        element(firstProduct).waitUntilVisible();
+        waitABit(4000);
+
+
+//        waitForCondition(nextButton);
 //        wait.until(driver -> ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete"));
 
 
 //        waitABit(4000);
 //                return element(firstProduct).isPresent();
+
 
     }
 

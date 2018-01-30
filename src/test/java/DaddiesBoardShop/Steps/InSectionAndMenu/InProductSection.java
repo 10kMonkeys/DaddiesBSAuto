@@ -4,8 +4,8 @@ import DaddiesBoardShop.Pages.SectionAndMenu.ProductsSection;
 import net.thucydides.core.annotations.Step;
 import org.junit.Assert;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
+import static org.hamcrest.core.IsEqual.equalTo;
+
 
 public class InProductSection {
 

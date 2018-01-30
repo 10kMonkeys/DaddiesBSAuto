@@ -1,12 +1,14 @@
 package DaddiesBoardShop.Pages.SectionAndMenu;
 
+import DaddiesBoardShop.Pages.Page.BasePage;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-public class PurchaseSortBySection extends PageObject {
+public class PurchaseSortBySection extends BasePage {
 
     @FindBy(css = "div.sort-by")
     public WebElement sortByTitle;
@@ -40,6 +42,10 @@ public class PurchaseSortBySection extends PageObject {
 
     @FindBy(css = "li.selected a[data-order = 'pricehigh']")
     public WebElement selectedPriceHighSort;
+
+    public PurchaseSortBySection(WebDriver driver) {
+        super(driver);
+    }
 
     public void clickOnBestSellersSort() {
         bestSellersSort.click();

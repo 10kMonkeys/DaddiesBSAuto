@@ -1,11 +1,10 @@
 package DaddiesBoardShop.Tests.HomePageTests;
 
-import DaddiesBoardShop.Application.Application;
 import net.thucydides.core.annotations.WithTag;
 import org.junit.Test;
 
-@WithTag(type = "Test", name = "HomePage")
-public class ElementsAreDisplayedTest extends Application {
+@WithTag(type = "Test", name = "Test")
+public class ElementsAreDisplayedTest extends BaseTest {
 
     @Test
     public void checkAllElemsAreDisplayed() {

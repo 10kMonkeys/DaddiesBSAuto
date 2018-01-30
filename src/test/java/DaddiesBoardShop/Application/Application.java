@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getDriver;
 
 @RunWith(SerenityRunner.class)
-public class Application {
+public abstract class Application {
 
     @Managed
     WebDriver driver;

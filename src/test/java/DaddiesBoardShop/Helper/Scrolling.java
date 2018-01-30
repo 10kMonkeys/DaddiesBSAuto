@@ -25,7 +25,5 @@ public class Scrolling {
 
     public static void jsClickOn() {
         javascriptExecutor.executeScript("$(#narrow-by-list .amshopby-advanced .amshopby-cat.has-child .button).click();");
-
     }
-
 }

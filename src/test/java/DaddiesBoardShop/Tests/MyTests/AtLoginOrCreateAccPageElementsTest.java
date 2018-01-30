@@ -7,7 +7,7 @@ import org.junit.Test;
 @Ignore
 public class AtLoginOrCreateAccPageElementsTest extends Application {
 
-    @Test
+
     public void checkLoginOrCreateAccPageElement() {
         user.atLoginOrCreateAccPage.openPage();
         user.inApplicationHeader.checkUserIsLogOut();

@@ -9,7 +9,7 @@ import org.junit.Test;
 @WithTag(type = "My", name = "Test")
 public class HorizontalScrollTest extends Application {
 
-    @Test
+
     public void horizScrollToMountTitle() {
         user.atLongboardsPage.openLongboardsPage();
 //        user.atLongboardsPage.getHorizonScrollMountainTitle();

@@ -1,13 +1,14 @@
 package DaddiesBoardShop.Pages.SectionAndMenu;
 
+import DaddiesBoardShop.Pages.Page.BasePage;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 import org.junit.Assert;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import java.util.List;
 
-public class PurchaseCategorySection extends PageObject {
-
+public class PurchaseCategorySection extends BasePage {
 
     @FindBy(css = "div#Category_title")
     public WebElement categoriesTitle;
@@ -32,6 +33,10 @@ public class PurchaseCategorySection extends PageObject {
 
     @FindBy(css = "li.amshopby-advanced > ol > li:nth-child(2) a")
     public WebElement decksOnlyCategory;
+
+    public PurchaseCategorySection(WebDriver driver) {
+        super(driver);
+    }
 
     public List<WebElement> getCategoriesList() {
         return categoriesList;

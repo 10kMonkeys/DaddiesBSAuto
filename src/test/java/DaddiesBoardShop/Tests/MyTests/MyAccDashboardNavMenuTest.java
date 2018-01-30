@@ -7,7 +7,7 @@ import org.junit.Test;
 @Ignore
 public class MyAccDashboardNavMenuTest extends Application {
 
-    @Test
+
     public void checkMyNavigationMenu() {
         user.atLoginOrCreateAccPage.openPage();
         user.atLoginOrCreateAccPage.logInRegisteredCustomer();

@@ -31,7 +31,7 @@ public class TextData {
             "Price Low - High", //4
             "Price High - Low"}; //5
 
-    ////PURCHASE PAGE - SORT BY SECTION
+    //PURCHASES PAGE - SORT BY SECTION
     public static String[] expectedLongboardCategories = {
             "Completes", //0
             "Decks Only", //1
@@ -55,4 +55,7 @@ public class TextData {
             "Stickers"}; //19
 
     public static String expectedCategoriesTitle = "Category";
+
+    //PURCHASE DETAIL PAGE
+    public static String expectedDaddiesSkateToolText = "Daddies Skateboard Tool +$9.95";
 }

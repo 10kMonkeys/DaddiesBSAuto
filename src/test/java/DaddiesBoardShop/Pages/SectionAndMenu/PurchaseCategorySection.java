@@ -1,8 +1,7 @@
 package DaddiesBoardShop.Pages.SectionAndMenu;
 
-import DaddiesBoardShop.Pages.Page.BasePage;
+import DaddiesBoardShop.Pages.BasePage;
 import net.serenitybdd.core.annotations.findby.FindBy;
-import net.serenitybdd.core.pages.PageObject;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

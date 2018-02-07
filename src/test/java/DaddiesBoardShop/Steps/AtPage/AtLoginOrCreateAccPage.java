@@ -1,7 +1,9 @@
 package DaddiesBoardShop.Steps.AtPage;
 
+import DaddiesBoardShop.Helper.UsersProperties;
 import DaddiesBoardShop.Pages.Page.LoginOrCreateAccPage;
 import net.thucydides.core.annotations.Step;
+import org.junit.Assert;
 
 public class AtLoginOrCreateAccPage {
 
@@ -14,7 +16,9 @@ public class AtLoginOrCreateAccPage {
 
     @Step
     public void logInRegisteredCustomer() {
-        onPage.logInUser();
+        onPage.fillEmailAdress(UsersProperties.INSTANCE.getProperty("UserEmail"));
+        onPage.fillPassword(UsersProperties.INSTANCE.getProperty("UserPassword"));
+        onPage.clickLoginButton();
     }
 
     @Step
@@ -38,27 +42,31 @@ public class AtLoginOrCreateAccPage {
     }
 
     @Step
-    public void checkEmailAddressInputIsDisplayed() {
-        onPage.emailAddressInputIsDisplayed();
+    public AtLoginOrCreateAccPage checkEmailAddressInputIsDisplayed() {
+        Assert.assertTrue(onPage.emailAddressInputIsDisplayed());
+        return this;
     }
 
     @Step
-    public void checkPasswordInputIsDisplayed() {
-        onPage.passwordInputIsDisplayed();
+    public AtLoginOrCreateAccPage checkPasswordInputIsDisplayed() {
+        Assert.assertTrue(onPage.passwordInputIsDisplayed());
+        return this;
     }
 
     @Step
-    public void checkForgotTourPassIsDisplayed() {
-        onPage.forgotTourPassIsDisplayed();
+    public AtLoginOrCreateAccPage checkForgotTourPassIsDisplayed() {
+        Assert.assertTrue(onPage.forgotTourPassIsDisplayed());
+        return this;
     }
 
     @Step
-    public void checkLoginButtonIsDisplayed() {
-        onPage.loginButtonIsDisplayed();
+    public AtLoginOrCreateAccPage checkLoginButtonIsDisplayed() {
+        Assert.assertTrue(onPage.loginButtonIsDisplayed());
+        return this;
     }
 
     @Step
     public void checkRegisterButtonIsDisplayed() {
-        onPage.registerButtonIsDisplayed();
+        Assert.assertTrue(onPage.registerButtonIsDisplayed());
     }
 }

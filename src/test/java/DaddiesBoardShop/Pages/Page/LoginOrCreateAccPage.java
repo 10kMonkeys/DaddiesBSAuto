@@ -1,6 +1,6 @@
 package DaddiesBoardShop.Pages.Page;
 
-import DaddiesBoardShop.Model.MyRegisteredCustomer;
+import DaddiesBoardShop.Pages.BasePage;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.thucydides.core.annotations.DefaultUrl;
 import org.junit.Assert;
@@ -9,8 +9,6 @@ import org.openqa.selenium.WebElement;
 
 @DefaultUrl("https://www.daddiesboardshop.com/customer/account/login/")
 public class LoginOrCreateAccPage extends BasePage {
-
-    MyRegisteredCustomer regCustomer = new MyRegisteredCustomer();
 
     public LoginOrCreateAccPage(WebDriver driver) {
         super(driver);
@@ -36,44 +34,38 @@ public class LoginOrCreateAccPage extends BasePage {
     }
 
     public void fillEmailAdress(String email) {
-        emailAddressInput.sendKeys(email);
+        element(emailAddressInput).sendKeys(email);
     }
 
     public void fillPassword(String password) {
-        passwordInput.sendKeys(password);
+        element(passwordInput).sendKeys(password);
     }
 
     public void clickLoginButton() {
-        loginButton.click();
+        element(loginButton).click();
     }
 
     public void clickRegistrationButton() {
-        registerButton.click();
+        element(registerButton).click();
     }
 
-    public void emailAddressInputIsDisplayed() {
-        Assert.assertTrue(emailAddressInput.isDisplayed());
+    public boolean emailAddressInputIsDisplayed() {
+        return element(emailAddressInput).isDisplayed();
     }
 
-    public void passwordInputIsDisplayed() {
-        Assert.assertTrue(passwordInput.isDisplayed());
+    public boolean passwordInputIsDisplayed() {
+        return element(passwordInput).isDisplayed();
     }
 
-    public void forgotTourPassIsDisplayed() {
-        Assert.assertTrue(forgotYourPassLink.isDisplayed());
+    public boolean forgotTourPassIsDisplayed() {
+        return element(forgotYourPassLink).isDisplayed();
     }
 
-    public void loginButtonIsDisplayed() {
-        Assert.assertTrue(loginButton.isDisplayed());
+    public boolean loginButtonIsDisplayed() {
+        return element(loginButton).isDisplayed();
     }
 
-    public void registerButtonIsDisplayed() {
-        Assert.assertTrue(registerButton.isDisplayed());
-    }
-
-    public void logInUser() {
-        fillEmailAdress(regCustomer.getEmailAddress());
-        fillPassword(regCustomer.getPassword());
-        clickLoginButton();
+    public boolean registerButtonIsDisplayed() {
+        return element(registerButton).isDisplayed();
     }
 }

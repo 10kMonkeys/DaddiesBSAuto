@@ -1,8 +1,10 @@
 package DaddiesBoardShop.Steps.AtPage;
 
 
+import DaddiesBoardShop.Helper.UsersProperties;
 import DaddiesBoardShop.Pages.Page.CreateAccountPage;
 import net.thucydides.core.annotations.Step;
+import org.junit.Assert;
 
 public class AtCreateAccountPage {
 
@@ -14,47 +16,78 @@ public class AtCreateAccountPage {
     }
 
     @Step
-    public void registerNewCustomer() {
-        onPage.createCustomer();
-    }
-
-    @Step
     public void clickSubmitButton() {
         onPage.clickSubmitButton();
     }
 
     @Step
-    public void checkFirstNameInputIsDisplayed() {
-        onPage.firstNameInputIsDisplayed();
+    public AtCreateAccountPage checkFirstNameInputIsDisplayed() {
+        Assert.assertTrue(onPage.firstNameInputIsDisplayed());
+        return this;
     }
 
     @Step
-    public void checkLastNameInputIsDisplayed() {
-        onPage.lastNameInputIsDisplayed();
+    public AtCreateAccountPage checkLastNameInputIsDisplayed() {
+        Assert.assertTrue(onPage.lastNameInputIsDisplayed());
+        return this;
     }
 
     @Step
-    public void checkEmailAddressInputIsDisplayed() {
-        onPage.emailAddressInputIsDisplayed();
+    public AtCreateAccountPage checkEmailAddressInputIsDisplayed() {
+        Assert.assertTrue(onPage.emailAddressInputIsDisplayed());
+        return this;
     }
 
     @Step
-    public void checkPassInputIsDisplayed() {
-        onPage.passwordInputIsDisplayed();
+    public AtCreateAccountPage checkPassInputIsDisplayed() {
+        Assert.assertTrue(onPage.passwordInputIsDisplayed());
+        return this;
     }
 
     @Step
-    public void checkConfirmPassInputIsDisplayed() {
-        onPage.confirmPasswordIsDisplayed();
+    public AtCreateAccountPage checkConfirmPassInputIsDisplayed() {
+        Assert.assertTrue(onPage.confirmPasswordIsDisplayed());
+        return this;
     }
 
     @Step
-    public void checkBackLinkIsDisplayed() {
-        onPage.backLinkIsDisplayed();
+    public AtCreateAccountPage checkBackLinkIsDisplayed() {
+        Assert.assertTrue(onPage.backLinkIsDisplayed());
+        return this;
     }
 
     @Step
     public void checkSubmitButtonIsDisplayed() {
-        onPage.submitButtonIsDisplayed();
+        Assert.assertTrue(onPage.submitButtonIsDisplayed());
+    }
+
+    @Step
+    public AtCreateAccountPage enterFirstName() {
+        onPage.fillFirstName(UsersProperties.INSTANCE.getProperty("NewUserFirstName"));
+        return this;
+    }
+
+    @Step
+    public AtCreateAccountPage enterLastName() {
+        onPage.fillLastName(UsersProperties.INSTANCE.getProperty("NewUserLastName"));
+        return this;
+    }
+
+    @Step
+    public AtCreateAccountPage enterEmailAddress() {
+        onPage.fillEmailAddress(UsersProperties.INSTANCE.getProperty("NewUserEmail"));
+        return this;
+    }
+
+    @Step
+    public AtCreateAccountPage enterPassword() {
+        onPage.fillPassword(UsersProperties.INSTANCE.getProperty("NewUserPassword"));
+        return this;
+    }
+
+    @Step
+    public AtCreateAccountPage enterConfirmedPassword() {
+        onPage.fillConfirmPassword(UsersProperties.INSTANCE.getProperty("NewUserPassword"));
+        return this;
     }
 }

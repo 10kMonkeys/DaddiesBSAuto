@@ -48,10 +48,4 @@ public class AtHomePage {
         Assert.assertEquals(TextData.expectedPopularCategoriesTitles[4], onPage.getPopularCategoriesTitlesListText(4));
         Assert.assertEquals(TextData.expectedPopularCategoriesTitles[5], onPage.getPopularCategoriesTitlesListText(5));
     }
-
-//REMOVE AFTER REFACTOR
-    @Step
-    public void openLongboardCategory() {
-        onPage.openLongboardsCategory();
-    }
 }

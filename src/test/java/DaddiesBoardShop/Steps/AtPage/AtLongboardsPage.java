@@ -13,14 +13,13 @@ public class AtLongboardsPage {
         onPage.openLongboardsPage();
     }
 
-
     @Step
     public void checkPageNavigation() {
-        Assert.assertEquals("Home > Longboards",onPage.getPageNavigation().getText());
+        Assert.assertEquals("Home > Longboards",onPage.getPageNavigationText());
     }
 
     @Step
     public void checkCategoryName() {
-        Assert.assertEquals("LONGBOARDS FROM DADDIESBOARDSHOP.COM", onPage.getCategoryName().getText());
+        Assert.assertEquals("LONGBOARDS FROM DADDIESBOARDSHOP.COM", onPage.getCategoryNameText());
     }
 }

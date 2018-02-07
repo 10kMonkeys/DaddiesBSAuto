@@ -1,8 +1,11 @@
 package DaddiesBoardShop.Application;
 
+import DaddiesBoardShop.Steps.AtPage.AtSearchResultPage;
 import DaddiesBoardShop.Steps.AtPage.*;
-import DaddiesBoardShop.Steps.InSectionAndMenu.InApplicationHeader;
-import DaddiesBoardShop.Steps.InSectionAndMenu.InLongboardsCategorySection;
+import DaddiesBoardShop.Steps.AtPage.InApplicationHeader;
+import DaddiesBoardShop.Steps.InDialogs.InCartDialog;
+import DaddiesBoardShop.Steps.InSectionAndMenu.InMyAccNavigationMenu;
+import DaddiesBoardShop.Steps.InSectionAndMenu.InPurchaseCategorySection;
 import DaddiesBoardShop.Steps.InSectionAndMenu.InProductSection;
 import DaddiesBoardShop.Steps.InSectionAndMenu.InPurchaseSortBySection;
 import net.thucydides.core.annotations.Steps;
@@ -28,7 +31,7 @@ public class User {
     public AtLongboardsPage atLongboardsPage;
 
     @Steps
-    public InLongboardsCategorySection inLongboardsCategorySection;
+    public InPurchaseCategorySection inLongboardsCategorySection;
 
     @Steps
     public InProductSection inProductSection;
@@ -36,4 +39,15 @@ public class User {
     @Steps
     public InPurchaseSortBySection inPurchaseSortBySection;
 
+    @Steps
+    public InMyAccNavigationMenu inMyAccNavigationMenu;
+
+    @Steps
+    public AtSearchResultPage atSearchResultPage;
+
+    @Steps
+    public AtPurchasePage atPurchasePage;
+
+    @Steps
+    public InCartDialog inCartDialog;
 }

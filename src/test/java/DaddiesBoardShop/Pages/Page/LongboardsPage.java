@@ -1,11 +1,12 @@
 package DaddiesBoardShop.Pages.Page;
 
+import DaddiesBoardShop.Pages.BasePage;
 import net.serenitybdd.core.annotations.findby.FindBy;
-import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.annotations.WhenPageOpens;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.yecht.Data;
 
 @DefaultUrl("https://www.daddiesboardshop.com/longboards")
 public class LongboardsPage extends BasePage {
@@ -29,12 +30,12 @@ public class LongboardsPage extends BasePage {
         open();
     }
 
-    public WebElement getPageNavigation() {
-        return pageNavigation;
+    public String getPageNavigationText() {
+        return element(pageNavigation).getText();
     }
 
-    public WebElement getCategoryName() {
-        return categoryName;
+    public String getCategoryNameText() {
+        return element(categoryName).getText();
     }
 
 

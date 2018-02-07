@@ -1,6 +1,6 @@
 package DaddiesBoardShop.Pages.Page;
 
-import DaddiesBoardShop.Model.MyRegisteredCustomer;
+import DaddiesBoardShop.Pages.BasePage;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.thucydides.core.annotations.DefaultUrl;
 import org.junit.Assert;
@@ -13,8 +13,6 @@ public class MyAccDashboardPage extends BasePage {
     public MyAccDashboardPage(WebDriver driver) {
         super(driver);
     }
-
-    MyRegisteredCustomer customer = new MyRegisteredCustomer();
 
     @FindBy(css = "li.success-msg")
     public WebElement finishRegMessage;
@@ -29,45 +27,20 @@ public class MyAccDashboardPage extends BasePage {
         open();
     }
 
-    public void finishRegMessageIsDisplayed() {
-        Assert.assertTrue(finishRegMessage.isDisplayed());
+    public boolean finishRegMessageIsDisplayed() {
+        try {
+            return element(finishRegMessage).isDisplayed();
+        } catch (Exception e) {
+            return false;
+        }
     }
 
     public String getHelloCustomerMessageText() {
-        return helloRegCustomerMessage.getText();
+        return element(helloRegCustomerMessage).getText();
     }
 
     public String getCustomerDataText() {
-        return customerData.getText();
-    }
-
-    public void checkHelloCustomMessage(String firstName, String lastName) {
-        Assert.assertEquals("Hello, " + firstName + " " + lastName + "!", getHelloCustomerMessageText());
-    }
-
-    public void checkCustomerData(String firstName, String lastName, String emailAddress) {
-        Assert.assertTrue(getCustomerDataText().contains(firstName));
-        Assert.assertTrue(getCustomerDataText().contains(lastName));
-        Assert.assertTrue(getCustomerDataText().contains(emailAddress));
-    }
-
-    public void checkJustRegCustomer() {
-        finishRegMessageIsDisplayed();
-
-        checkHelloCustomMessage(CreateAccountPage.justRegCustomer.getFirstName(),
-                CreateAccountPage.justRegCustomer.getLastName());
-
-        checkCustomerData(CreateAccountPage.justRegCustomer.getFirstName(),
-                CreateAccountPage.justRegCustomer.getLastName(),
-                CreateAccountPage.justRegCustomer.getEmailAddress());
-    }
-
-    public void checkRegCustomer() {
-        checkHelloCustomMessage(customer.getFirstName(), customer.getLastName());
-
-        checkCustomerData(customer.getFirstName(),
-                customer.getLastName(),
-                customer.getEmailAddress());
+        return element(customerData).getText();
     }
 }
 

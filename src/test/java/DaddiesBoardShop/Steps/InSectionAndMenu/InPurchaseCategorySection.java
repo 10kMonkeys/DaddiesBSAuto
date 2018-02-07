@@ -5,7 +5,7 @@ import DaddiesBoardShop.Pages.SectionAndMenu.PurchaseCategorySection;
 import net.thucydides.core.annotations.Step;
 import org.junit.Assert;
 
-public class InLongboardsCategorySection {
+public class InPurchaseCategorySection {
 
     PurchaseCategorySection inSection;
 

@@ -1,4 +1,4 @@
-package DaddiesBoardShop.Pages.Page;
+package DaddiesBoardShop.Pages;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.WhenPageOpens;

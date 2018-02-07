@@ -1,16 +1,13 @@
 package DaddiesBoardShop.Pages.Page;
 
-import DaddiesBoardShop.Model.Customer;
+import DaddiesBoardShop.Pages.BasePage;
 import net.thucydides.core.annotations.DefaultUrl;
-import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 @DefaultUrl("https://www.daddiesboardshop.com/customer/account/create")
 public class CreateAccountPage extends BasePage {
-
-    public static Customer justRegCustomer;
 
     public CreateAccountPage(WebDriver driver) {
         super(driver);
@@ -42,70 +39,58 @@ public class CreateAccountPage extends BasePage {
     }
 
     public void fillFirstName(String firstName) {
-        firstNameInput.sendKeys(firstName);
+        element(firstNameInput).sendKeys(firstName);
     }
 
     public void fillLastName(String lastName) {
-        lastNameInput.sendKeys(lastName);
+        element(lastNameInput).sendKeys(lastName);
     }
 
     public void fillEmailAddress(String emailAddress) {
-        emailAddressInput.sendKeys(emailAddress);
+        element(emailAddressInput).sendKeys(emailAddress);
     }
 
     public void fillPassword(String emailAddress) {
-        passwordInput.sendKeys(emailAddress);
+        element(passwordInput).sendKeys(emailAddress);
     }
 
     public void fillConfirmPassword(String confirmPassword) {
-        confirmPasswordInput.sendKeys(confirmPassword);
+        element(confirmPasswordInput).sendKeys(confirmPassword);
     }
 
     public void clickBackLink() {
-        backLink.click();
+        element(backLink).click();
     }
 
     public void clickSubmitButton() {
-        submitButton.click();
+        element(submitButton).click();
     }
 
-    public void firstNameInputIsDisplayed() {
-        Assert.assertTrue(firstNameInput.isDisplayed());
+    public boolean firstNameInputIsDisplayed() {
+        return element(firstNameInput).isDisplayed();
     }
 
-    public void lastNameInputIsDisplayed() {
-        Assert.assertTrue(lastNameInput.isDisplayed());
+    public boolean lastNameInputIsDisplayed() {
+        return element(lastNameInput).isDisplayed();
     }
 
-    public void emailAddressInputIsDisplayed() {
-        Assert.assertTrue(emailAddressInput.isDisplayed());
+    public boolean emailAddressInputIsDisplayed() {
+        return element(emailAddressInput).isDisplayed();
     }
 
-    public void passwordInputIsDisplayed() {
-        Assert.assertTrue(passwordInput.isDisplayed());
+    public boolean passwordInputIsDisplayed() {
+        return element(passwordInput).isDisplayed();
     }
 
-    public void confirmPasswordIsDisplayed() {
-        Assert.assertTrue(confirmPasswordInput.isDisplayed());
+    public boolean confirmPasswordIsDisplayed() {
+        return element(confirmPasswordInput).isDisplayed();
     }
 
-    public void backLinkIsDisplayed() {
-        Assert.assertTrue(backLink.isDisplayed());
+    public boolean backLinkIsDisplayed() {
+        return element(backLink).isDisplayed();
     }
 
-    public void submitButtonIsDisplayed() {
-        Assert.assertTrue((submitButton.isDisplayed()));
-    }
-
-    public void createCustomer() {
-        Customer customer = Customer.newEntity();
-        justRegCustomer = customer;
-
-        fillFirstName(customer.getFirstName());
-        fillLastName(customer.getLastName());
-        fillEmailAddress(customer.getEmailAddress());
-        fillPassword(customer.getPassword());
-        fillConfirmPassword(customer.getPassword());
-        clickSubmitButton();
+    public boolean submitButtonIsDisplayed() {
+        return element(submitButton).isDisplayed();
     }
 }

@@ -22,8 +22,4 @@ public class Scrolling {
     public static void tableDragAndDropScroll(WebElement element, int horizPixels, int vertPixels) {
         action.dragAndDropBy(element, horizPixels, vertPixels).build().perform();
     }
-
-    public static void jsClickOn() {
-        javascriptExecutor.executeScript("$(#narrow-by-list .amshopby-advanced .amshopby-cat.has-child .button).click();");
-    }
 }

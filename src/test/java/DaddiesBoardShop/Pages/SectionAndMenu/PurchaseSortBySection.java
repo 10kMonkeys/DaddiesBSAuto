@@ -1,12 +1,9 @@
 package DaddiesBoardShop.Pages.SectionAndMenu;
 
-import DaddiesBoardShop.Pages.Page.BasePage;
+import DaddiesBoardShop.Pages.BasePage;
 import net.serenitybdd.core.annotations.findby.FindBy;
-import net.serenitybdd.core.pages.PageObject;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
-import java.util.List;
 
 public class PurchaseSortBySection extends BasePage {
 
@@ -90,6 +87,4 @@ public class PurchaseSortBySection extends BasePage {
     public String getPriceHighSortText() {
         return priceHighSort.getText();
     }
-
-
 }

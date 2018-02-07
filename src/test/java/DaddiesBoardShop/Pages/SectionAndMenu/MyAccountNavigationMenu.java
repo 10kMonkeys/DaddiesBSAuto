@@ -1,8 +1,7 @@
 package DaddiesBoardShop.Pages.SectionAndMenu;
 
-import DaddiesBoardShop.Pages.Page.BasePage;
+import DaddiesBoardShop.Pages.BasePage;
 import net.serenitybdd.core.annotations.findby.FindBy;
-import net.thucydides.core.annotations.Step;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -40,51 +39,39 @@ public class MyAccountNavigationMenu extends BasePage {
     @FindBy(css = "div.block-content li:last-child")
     public WebElement myReturnsLink;
 
-    public void accountDashboardLinkIsDisplayed() {
-        Assert.assertTrue(accountDashboardLink.isDisplayed());
+    public boolean accountDashboardLinkIsDisplayed() {
+        return element(accountDashboardLink).isDisplayed();
     }
 
-    public void accountInformationLinkIsDisplayed() {
-        Assert.assertTrue(accountInformationLink.isDisplayed());
+    public boolean accountInformationLinkIsDisplayed() {
+        return element(accountInformationLink).isDisplayed();
     }
 
-    public void addressBookLinkLinkIsDisplayed() {
-        Assert.assertTrue(addressBookLink.isDisplayed());
+    public boolean addressBookLinkLinkIsDisplayed() {
+        return element(addressBookLink).isDisplayed();
     }
 
-    public void myOrdersLinkIsDisplayed() {
-        Assert.assertTrue(myOrdersLink.isDisplayed());
+    public boolean myOrdersLinkIsDisplayed() {
+        return element(myOrdersLink).isDisplayed();
     }
 
-    public void myProductReviewsLinkIsDisplayed() {
-        Assert.assertTrue(myProductReviewsLink.isDisplayed());
+    public boolean myProductReviewsLinkIsDisplayed() {
+        return element(myProductReviewsLink).isDisplayed();
     }
 
-    public void myWishlistLinkIsDisplayed() {
-        Assert.assertTrue(myWishlistLink.isDisplayed());
+    public boolean myWishlistLinkIsDisplayed() {
+        return element(myWishlistLink).isDisplayed();
     }
 
-    public void storeCreditLinkIsDisplayed() {
-        Assert.assertTrue(storeCreditLink.isDisplayed());
+    public boolean storeCreditLinkIsDisplayed() {
+        return element(storeCreditLink).isDisplayed();
     }
 
-    public void giftCardLinkIsDisplayed() {
-        Assert.assertTrue(giftCardLink.isDisplayed());
+    public boolean giftCardLinkIsDisplayed() {
+        return element(giftCardLink).isDisplayed();
     }
 
-    public void myReturnsLinkIsDisplayed() {
-        Assert.assertTrue(myReturnsLink.isDisplayed());
-    }
-
-    public void myAccNavigationMenuIsDisplayed() {
-        accountDashboardLinkIsDisplayed();
-        accountInformationLinkIsDisplayed();
-        addressBookLinkLinkIsDisplayed();
-        myOrdersLinkIsDisplayed();
-        myProductReviewsLinkIsDisplayed();
-        myWishlistLinkIsDisplayed();
-        storeCreditLinkIsDisplayed();
-        giftCardLinkIsDisplayed();
-        myReturnsLinkIsDisplayed();
+    public boolean myReturnsLinkIsDisplayed() {
+        return element(myReturnsLink).isDisplayed();
     }
 }

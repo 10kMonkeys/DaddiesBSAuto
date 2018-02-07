@@ -1,10 +1,8 @@
 package DaddiesBoardShop.Pages.Page;
 
-import DaddiesBoardShop.Helper.Scrolling;
+import DaddiesBoardShop.Pages.BasePage;
 import net.serenitybdd.core.annotations.findby.FindBy;
-import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.DefaultUrl;
-import net.thucydides.core.annotations.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import java.util.List;
@@ -128,15 +126,6 @@ public class HomePage extends BasePage {
             }
             return true;
         }
-        System.out.println("*************************************List size is not expected*************************************");
         return false;
-    }
-
-    //REMOVE AFTER PROJECT UPDATE
-    @Step
-    public void openLongboardsCategory() {
-        openHomePage();
-        Scrolling.ScrollToElementOnPage(longboardsCategory);
-        longboardsCategory.click();
     }
 }

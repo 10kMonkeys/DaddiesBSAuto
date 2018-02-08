@@ -2,7 +2,7 @@ package DaddiesBoardShop.Application;
 
 import DaddiesBoardShop.Steps.AtPage.AtSearchResultPage;
 import DaddiesBoardShop.Steps.AtPage.*;
-import DaddiesBoardShop.Steps.AtPage.InApplicationHeader;
+import DaddiesBoardShop.Steps.InSectionAndMenu.InApplicationHeader;
 import DaddiesBoardShop.Steps.InDialogs.InCartDialog;
 import DaddiesBoardShop.Steps.InSectionAndMenu.InMyAccNavigationMenu;
 import DaddiesBoardShop.Steps.InSectionAndMenu.InPurchaseCategorySection;

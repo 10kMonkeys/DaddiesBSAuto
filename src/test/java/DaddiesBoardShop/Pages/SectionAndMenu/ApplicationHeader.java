@@ -1,4 +1,4 @@
-package DaddiesBoardShop.Pages.Page;
+package DaddiesBoardShop.Pages.SectionAndMenu;
 
 import DaddiesBoardShop.Pages.BasePage;
 import DaddiesBoardShop.Steps.AtPage.AtLoginOrCreateAccPage;

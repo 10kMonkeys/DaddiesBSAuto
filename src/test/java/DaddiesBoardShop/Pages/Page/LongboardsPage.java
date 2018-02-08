@@ -37,6 +37,4 @@ public class LongboardsPage extends BasePage {
     public String getCategoryNameText() {
         return element(categoryName).getText();
     }
-
-
 }

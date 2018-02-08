@@ -14,11 +14,11 @@ public class MyAccDashboardNavMenuTest extends Application {
         user.inMyAccNavigationMenu.accountDashboardLinkIsDisplayed()
                 .accountInformationLinkIsDisplayed()
                 .addressBookLinkLinkIsDisplayed()
-        .myOrdersLinkIsDisplayed()
-        .myProductReviewsLinkIsDisplayed()
-        .myWishlistLinkIsDisplayed()
-        .storeCreditLinkIsDisplayed()
-        .giftCardLinkIsDisplayed()
-        .myReturnsLinkIsDisplayed();
+                .myOrdersLinkIsDisplayed()
+                .myProductReviewsLinkIsDisplayed()
+                .myWishlistLinkIsDisplayed()
+                .storeCreditLinkIsDisplayed()
+                .giftCardLinkIsDisplayed()
+                .myReturnsLinkIsDisplayed();
     }
 }

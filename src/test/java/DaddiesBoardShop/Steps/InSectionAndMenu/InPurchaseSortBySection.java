@@ -10,12 +10,42 @@ public class InPurchaseSortBySection {
     PurchaseSortBySection inSection;
 
     @Step
-    public void checkSectionIsCorrectAndDisplayed() {
+    public void checkSortSectionIsCorrectAndDisplayed() {
+        checkSortByTitleIsCorrectAndDisplayed();
+        checkBestSellersSortCorrectAndDisplayed();
+        checkNewestSortIsCorrectAndDisplayed();
+        checkAToZSortIsCorrectAndDisplayed();
+        checkPriceLowSortIsCorrectAndDisplayed();
+        checkPriceHighSortIsCorrectAndDisplayed();
+    }
+
+    @Step
+    public void checkSortByTitleIsCorrectAndDisplayed() {
         Assert.assertEquals(TextData.expectedSortBySectionValues[0], inSection.getSortByTitleText());
+    }
+
+    @Step
+    public void checkBestSellersSortCorrectAndDisplayed() {
         Assert.assertEquals(TextData.expectedSortBySectionValues[1], inSection.getBestSellersSortText());
+    }
+
+    @Step
+    public void checkNewestSortIsCorrectAndDisplayed() {
         Assert.assertEquals(TextData.expectedSortBySectionValues[2], inSection.getNewestSortText());
+    }
+
+    @Step
+    public void checkAToZSortIsCorrectAndDisplayed() {
         Assert.assertEquals(TextData.expectedSortBySectionValues[3], inSection.getAToZSortText());
+    }
+
+    @Step
+    public void checkPriceLowSortIsCorrectAndDisplayed() {
         Assert.assertEquals(TextData.expectedSortBySectionValues[4], inSection.getPriceLowSortText());
+    }
+
+    @Step
+    public void checkPriceHighSortIsCorrectAndDisplayed() {
         Assert.assertEquals(TextData.expectedSortBySectionValues[5], inSection.getPriceHighSortText());
     }
 

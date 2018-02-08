@@ -1,6 +1,6 @@
-package DaddiesBoardShop.Steps.AtPage;
+package DaddiesBoardShop.Steps.InSectionAndMenu;
 
-import DaddiesBoardShop.Pages.Page.ApplicationHeader;
+import DaddiesBoardShop.Pages.SectionAndMenu.ApplicationHeader;
 import net.thucydides.core.annotations.Step;
 
 public class InApplicationHeader {

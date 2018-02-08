@@ -7,7 +7,6 @@ import org.junit.Assert;
 
 import static org.hamcrest.core.IsEqual.equalTo;
 
-
 public class InProductSection {
 
     ProductsSection inSection;

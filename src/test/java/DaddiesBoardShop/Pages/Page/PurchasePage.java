@@ -36,7 +36,6 @@ public class PurchasePage extends BasePage{
     }
 
     public void clickOnDaddiesSkateTool() {
-//        wait.until(ExpectedConditions.elementToBeClickable(daddiesSkateTool));
         element(daddiesSkateTool).click();
     }
 

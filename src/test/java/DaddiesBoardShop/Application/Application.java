@@ -18,10 +18,6 @@ public abstract class Application {
 
     @Before
     public void start() {
-
     }
-
-
-
 }
  

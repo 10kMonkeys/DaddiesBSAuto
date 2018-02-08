@@ -105,18 +105,6 @@ public class HomePage extends BasePage {
         return listOfElementsIsDisplayed1(popularCategoriesTitlesList, 6);
     }
 
-    public String getSectionTitlesListText(int title) {
-        return sectionTitlesList.get(title).getAttribute("textContent");
-    }
-
-    public String getPartnerTitlesListText(int title) {
-        return partnerTitlesList.get(title).getAttribute("textContent");
-    }
-
-    public String getPopularCategoriesTitlesListText(int title) {
-        return popularCategoriesTitlesList.get(title).getAttribute("textContent");
-    }
-
     private boolean listOfElementsIsDisplayed1(List<WebElement> list, int listSize) {
         if (list.size() == listSize) {
             for (int i = 0; i < list.size(); i++) {

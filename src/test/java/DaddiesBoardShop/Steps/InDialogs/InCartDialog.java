@@ -10,7 +10,17 @@ public class InCartDialog {
 
     @Step
     public void checkJustAddedPurchase() {
+        checkCartIsOpened();
+        checkPuchaseIsAdded();
+    }
+
+    @Step
+    public void checkCartIsOpened() {
         Assert.assertTrue(inDialog.checkCartOpening());
+    }
+
+    @Step
+    public void checkPuchaseIsAdded() {
         Assert.assertTrue(inDialog.justAddedPurchaseIsDisplayed());
     }
 }

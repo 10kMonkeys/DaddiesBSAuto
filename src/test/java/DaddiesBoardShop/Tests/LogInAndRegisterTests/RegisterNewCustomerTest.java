@@ -17,7 +17,6 @@ public class RegisterNewCustomerTest extends Application {
         user.inApplicationHeader.checkUserIsLogOut();
     }
 
-
     @Test
     public void registerNewCustomer() {
         user.atCreateAccountPage.openPage();

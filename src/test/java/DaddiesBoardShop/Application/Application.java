@@ -1,31 +1,23 @@
 package DaddiesBoardShop.Application;
 
-import DaddiesBoardShop.Steps.*;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
+import org.junit.Before;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
 @RunWith(SerenityRunner.class)
-public class Application {
+public abstract class Application {
 
     @Managed
     WebDriver driver;
 
     @Steps
-    public AtCreateAccountPage atCreateAccountPage;
+    public User user;
 
-    @Steps
-    public AtLoginOrCreateAccPage atLoginOrCreateAccPage;
-
-    @Steps
-    public AtMyAccDashboardPage atMyAccDashboardPage;
-
-    @Steps
-    public AtHomePage atHomePage;
-
-    @Steps
-    public InApplicationHeader inApplicationHeader;
+    @Before
+    public void start() {
+    }
 }
  

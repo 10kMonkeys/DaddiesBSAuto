@@ -1,4 +1,5 @@
 package DaddiesBoardShop.Steps.AtPage;
+import org.assertj.core.api.SoftAssertions;
 
 import DaddiesBoardShop.Model.TextData;
 import DaddiesBoardShop.Pages.Page.HomePage;
@@ -20,7 +21,7 @@ public class AtHomePage {
         Assert.assertTrue(onPage.homePageBannerIsDisplayed());
         Assert.assertTrue(onPage.homePageDealsPictureIsDisplayed());
         Assert.assertTrue(onPage.homePageBrandsListIsDisplayed());
-        Assert.assertTrue(onPage.partnerPicsListIsDisplayed());
+        Assert.assertTrue(onPage.partnerPicsListIsDisplayed()); //111
         Assert.assertTrue(onPage.partnerTitlesListIsDisplayed());
         Assert.assertTrue(onPage.popularCategoriesPicsListIsDisplayed());
         Assert.assertTrue(onPage.popularCategoriesTitlesListIsDisplayed());

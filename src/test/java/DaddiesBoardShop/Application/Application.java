@@ -3,6 +3,7 @@ package DaddiesBoardShop.Application;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
+import org.junit.Before;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
@@ -14,5 +15,13 @@ public abstract class Application {
 
     @Steps
     public User user;
+
+    @Before
+    public void start() {
+
+    }
+
+
+
 }
  

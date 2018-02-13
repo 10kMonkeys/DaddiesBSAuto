@@ -1,11 +1,9 @@
-package DaddiesBoardShop.Steps.AtPage;
+package DaddiesBoardShop.steps.AtPage;
 
 import DaddiesBoardShop.Helper.UsersProperties;
 import DaddiesBoardShop.Pages.Page.MyAccDashboardPage;
-import DaddiesBoardShop.Pages.SectionAndMenu.MyAccountNavigationMenu;
 import net.thucydides.core.annotations.Step;
 import org.junit.Assert;
-import org.junit.experimental.theories.suppliers.TestedOn;
 
 public class AtMyAccDashboardPage {
 

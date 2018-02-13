@@ -1,4 +1,4 @@
-package DaddiesBoardShop.Steps.InSectionAndMenu;
+package DaddiesBoardShop.steps.InSectionAndMenu;
 
 import DaddiesBoardShop.Model.TextData;
 import DaddiesBoardShop.Pages.SectionAndMenu.PurchaseSortBySection;

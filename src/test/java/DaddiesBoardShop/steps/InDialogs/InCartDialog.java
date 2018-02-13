@@ -1,4 +1,4 @@
-package DaddiesBoardShop.Steps.InDialogs;
+package DaddiesBoardShop.steps.InDialogs;
 
 import DaddiesBoardShop.Pages.Dialogs.CartDialog;
 import net.thucydides.core.annotations.Step;

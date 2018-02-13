@@ -1,4 +1,4 @@
-package DaddiesBoardShop.Steps.AtPage;
+package DaddiesBoardShop.steps.AtPage;
 
 import DaddiesBoardShop.Pages.Page.LongboardsPage;
 import net.thucydides.core.annotations.Step;

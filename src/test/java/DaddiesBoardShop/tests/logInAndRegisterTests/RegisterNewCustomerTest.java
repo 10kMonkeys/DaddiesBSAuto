@@ -1,7 +1,7 @@
-package DaddiesBoardShop.Tests.LogInAndRegisterTests;
+package DaddiesBoardShop.tests.logInAndRegisterTests;
 
 import DaddiesBoardShop.application.TestRunner;
-import DaddiesBoardShop.Model.NewCustomer;
+import DaddiesBoardShop.model.NewCustomer;
 import net.thucydides.core.annotations.WithTag;
 import org.junit.Before;
 import org.junit.Test;

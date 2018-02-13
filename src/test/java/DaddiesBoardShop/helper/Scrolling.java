@@ -1,4 +1,4 @@
-package DaddiesBoardShop.Helper;
+package DaddiesBoardShop.helper;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;

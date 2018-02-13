@@ -1,11 +1,9 @@
 package DaddiesBoardShop.Pages.SectionAndMenu;
 
-import DaddiesBoardShop.Helper.Scrolling;
+import DaddiesBoardShop.helper.Scrolling;
 import DaddiesBoardShop.Pages.BasePage;
-import com.github.javafaker.Faker;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.thucydides.core.annotations.WhenPageOpens;
-import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;

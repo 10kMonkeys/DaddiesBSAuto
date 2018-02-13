@@ -1,4 +1,4 @@
-package DaddiesBoardShop.Application;
+package DaddiesBoardShop.application;
 
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Managed;

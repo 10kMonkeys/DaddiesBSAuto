@@ -1,4 +1,4 @@
-package DaddiesBoardShop.Application;
+package DaddiesBoardShop.application;
 
 import DaddiesBoardShop.Steps.AtPage.AtSearchResultPage;
 import DaddiesBoardShop.Steps.AtPage.*;

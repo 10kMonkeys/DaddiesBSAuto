@@ -1,6 +1,6 @@
 package DaddiesBoardShop.Tests.AddPurchaseTests;
 
-import DaddiesBoardShop.Application.Application;
+import DaddiesBoardShop.application.Application;
 import net.thucydides.core.annotations.WithTag;
 import org.junit.Test;
 

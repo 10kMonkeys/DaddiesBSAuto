@@ -1,6 +1,6 @@
 package DaddiesBoardShop.Model;
 
-import DaddiesBoardShop.Helper.UsersProperties;
+import DaddiesBoardShop.helper.UsersProperties;
 import com.github.javafaker.Faker;
 
 public class NewCustomer {

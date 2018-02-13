@@ -1,6 +1,6 @@
 package DaddiesBoardShop.Tests.LogInAndRegisterTests;
 
-import DaddiesBoardShop.Application.Application;
+import DaddiesBoardShop.application.Application;
 import net.thucydides.core.annotations.WithTag;
 import org.junit.Before;
 import org.junit.Test;

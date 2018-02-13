@@ -1,11 +1,11 @@
 package DaddiesBoardShop.tests.longboardsPageTests;
 
-import DaddiesBoardShop.application.Application;
+import DaddiesBoardShop.application.TestRunner;
 import net.thucydides.core.annotations.WithTag;
 import org.junit.Test;
 
 @WithTag(type = "My", name = "Test")
-public class LongLowToHighSortingTest extends Application {
+public class LongLowToHighSortingTest extends TestRunner {
 
     @Test
     public void checkLongToHighSorting() {

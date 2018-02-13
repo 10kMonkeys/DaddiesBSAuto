@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
 @RunWith(SerenityRunner.class)
-public abstract class Application {
+public abstract class TestRunner {
 
     @Managed
     WebDriver driver;

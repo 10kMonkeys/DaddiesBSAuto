@@ -1,12 +1,12 @@
 package DaddiesBoardShop.tests.logInAndRegisterTests;
 
-import DaddiesBoardShop.application.Application;
+import DaddiesBoardShop.application.TestRunner;
 import net.thucydides.core.annotations.WithTag;
 import org.junit.Before;
 import org.junit.Test;
 
 @WithTag(type = "My", name = "Test")
-public class LogInRegisteredCustomerTest extends Application {
+public class LogInRegisteredCustomerTest extends TestRunner {
 
     @Before
     public void checkUserIsLogOut() {

@@ -1,6 +1,6 @@
 package DaddiesBoardShop.Steps.InDialogs;
 
-import DaddiesBoardShop.Pages.Dialogs.CartDialog;
+import DaddiesBoardShop.pages.dialogs.CartDialog;
 import net.thucydides.core.annotations.Step;
 import org.junit.Assert;
 

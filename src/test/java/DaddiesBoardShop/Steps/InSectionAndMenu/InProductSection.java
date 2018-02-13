@@ -1,11 +1,8 @@
 package DaddiesBoardShop.Steps.InSectionAndMenu;
 
-import DaddiesBoardShop.Pages.SectionAndMenu.ProductsSection;
+import DaddiesBoardShop.pages.SectionAndMenu.ProductsSection;
 import net.thucydides.core.annotations.Step;
-import net.thucydides.core.annotations.Steps;
 import org.junit.Assert;
-
-import static org.hamcrest.core.IsEqual.equalTo;
 
 public class InProductSection {
 

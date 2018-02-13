@@ -1,10 +1,9 @@
-package DaddiesBoardShop.Pages.Page;
+package DaddiesBoardShop.pages.Page;
 
-import DaddiesBoardShop.Pages.BasePage;
+import DaddiesBoardShop.pages.BasePage;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class PurchasePage extends BasePage{
 

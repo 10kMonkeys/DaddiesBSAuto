@@ -1,7 +1,7 @@
 package DaddiesBoardShop.Steps.AtPage;
 
 import DaddiesBoardShop.Model.TextData;
-import DaddiesBoardShop.Pages.Page.PurchasePage;
+import DaddiesBoardShop.pages.Page.PurchasePage;
 import net.thucydides.core.annotations.Step;
 import org.junit.Assert;
 

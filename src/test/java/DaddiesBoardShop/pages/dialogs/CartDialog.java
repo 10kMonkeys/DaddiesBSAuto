@@ -1,6 +1,6 @@
-package DaddiesBoardShop.Pages.Dialogs;
+package DaddiesBoardShop.pages.dialogs;
 
-import DaddiesBoardShop.Pages.BasePage;
+import DaddiesBoardShop.pages.BasePage;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

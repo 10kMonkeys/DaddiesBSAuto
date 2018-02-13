@@ -2,7 +2,7 @@ package DaddiesBoardShop.Steps.AtPage;
 
 
 import DaddiesBoardShop.helper.UsersProperties;
-import DaddiesBoardShop.Pages.Page.CreateAccountPage;
+import DaddiesBoardShop.pages.Page.CreateAccountPage;
 import net.thucydides.core.annotations.Step;
 import org.junit.Assert;
 

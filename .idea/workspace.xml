@@ -2,24 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2226639-0850-4b93-8653-ca131ca33ae7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/NewCustomer.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Model/NewCustomer.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/SectionAndMenu/ProductsSection.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/SectionAndMenu/ProductsSection.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/BasePage.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Dialogs/CartDialog.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Page/LoginOrCreateAccPage.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Page/MyAccDashboardPage.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtPage/AtCreateAccountPage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtPage/AtCreateAccountPage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtPage/AtHomePage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtPage/AtHomePage.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtPage/AtLoginOrCreateAccPage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtPage/AtLoginOrCreateAccPage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtPage/AtLongboardsPage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtPage/AtLongboardsPage.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtPage/AtMyAccDashboardPage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtPage/AtMyAccDashboardPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/AddPurchaseTests/AddPurchaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/AddPurchaseTests/AddPurchaseTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/CheckElementsTests/CreateAccPageElementTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/CheckElementsTests/CreateAccPageElementTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/CheckElementsTests/LoginOrCreateAccPageElementsTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/CheckElementsTests/LoginOrCreateAccPageElementsTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/CheckElementsTests/MyAccDashboardNavMenuTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/CheckElementsTests/MyAccDashboardNavMenuTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HomePageTests/ElementsAreDisplayedTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HomePageTests/ElementsAreDisplayedTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LogInAndRegisterTests/LogInRegisteredCustomerTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LogInAndRegisterTests/LogInRegisteredCustomerTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LogInAndRegisterTests/RegisterNewCustomerTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LogInAndRegisterTests/RegisterNewCustomerTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LongboardsPageTests/LongLowToHighSortingTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LongboardsPageTests/LongLowToHighSortingTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LongboardsPageTests/ProductDetailsTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LongboardsPageTests/ProductDetailsTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/application/Application.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/application/Application.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/application/User.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/application/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/helper/Scrolling.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/helper/Scrolling.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/helper/UsersProperties.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/helper/UsersProperties.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtPage/AtPurchasePage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtPage/AtPurchasePage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtPage/AtSearchResultPage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/AtPage/AtSearchResultPage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/InDialogs/InCartDialog.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/InDialogs/InCartDialog.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/InSectionAndMenu/InApplicationHeader.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/InSectionAndMenu/InApplicationHeader.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/InSectionAndMenu/InMyAccNavigationMenu.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/InSectionAndMenu/InMyAccNavigationMenu.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/InSectionAndMenu/InProductSection.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/InSectionAndMenu/InProductSection.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/InSectionAndMenu/InPurchaseCategorySection.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/InSectionAndMenu/InPurchaseCategorySection.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/InSectionAndMenu/InPurchaseSortBySection.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Steps/InSectionAndMenu/InPurchaseSortBySection.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Page/CreateAccountPage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Page/CreateAccountPage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Page/HomePage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Page/HomePage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Page/LongboardsPage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Page/LongboardsPage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Page/PurchasePage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Page/PurchasePage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Page/SearchResultPage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Page/SearchResultPage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/SectionAndMenu/ApplicationHeader.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/SectionAndMenu/ApplicationHeader.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/SectionAndMenu/MyAccountNavigationMenu.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/SectionAndMenu/MyAccountNavigationMenu.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/SectionAndMenu/ProductsSection.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/SectionAndMenu/ProductsSection.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/SectionAndMenu/PurchaseCategorySection.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/SectionAndMenu/PurchaseCategorySection.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/SectionAndMenu/PurchaseSortBySection.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/SectionAndMenu/PurchaseSortBySection.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,8 +44,8 @@
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/application/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state relative-caret-position="330">
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -264,7 +273,17 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
-              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DaddiesBSAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DaddiesBSAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="dialogs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DaddiesBSAuto" type="b2602c69:ProjectViewProjectNode" />
@@ -599,6 +618,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="881" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -612,7 +632,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2550586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2550586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -668,10 +688,11 @@
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/List.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/String.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/Dialogs/CartDialog.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/dialogs/CartDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -714,8 +735,8 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HomePageTests/TextDataAreCorrectTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/application/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        <state relative-caret-position="330">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -758,80 +779,99 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/Dialogs/CartDialog.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/dialogs/CartDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/Page/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Page/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="112" column="17" lean-forward="true" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2845#2846#0" expanded="true" />
+            <element signature="e#2916#2917#0" expanded="true" />
+            <element signature="e#2969#2970#0" expanded="true" />
+            <element signature="e#3040#3041#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/Page/CreateAccountPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Page/CreateAccountPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-473">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/Page/LoginOrCreateAccPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Page/LoginOrCreateAccPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="40" column="39" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/Page/LongboardsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Page/LongboardsPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/Page/MyAccDashboardPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Page/MyAccDashboardPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/Page/SearchResultPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Page/SearchResultPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="19" column="58" lean-forward="true" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/Page/PurchasePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Page/PurchasePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="e#1146#1147#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/SectionAndMenu/ApplicationHeader.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/SectionAndMenu/ApplicationHeader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-136">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/SectionAndMenu/MyAccountNavigationMenu.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/SectionAndMenu/MyAccountNavigationMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-371">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/SectionAndMenu/ProductsSection.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/SectionAndMenu/ProductsSection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
           <caret line="96" column="36" lean-forward="false" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
@@ -839,24 +879,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/SectionAndMenu/PurchaseCategorySection.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/SectionAndMenu/PurchaseCategorySection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="63" column="38" lean-forward="false" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/SectionAndMenu/PurchaseSortBySection.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/SectionAndMenu/PurchaseSortBySection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-541">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/BasePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -872,6 +915,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-915">
           <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="e#1449#1450#0" expanded="true" />
+            <element signature="e#1514#1515#0" expanded="true" />
+            <element signature="e#1586#1587#0" expanded="true" />
+            <element signature="e#2116#2117#0" expanded="true" />
+            <element signature="e#2190#2191#0" expanded="true" />
+            <element signature="e#2255#2256#0" expanded="true" />
+            <element signature="e#2327#2328#0" expanded="true" />
+            <element signature="e#2386#2387#0" expanded="true" />
+            <element signature="e#2452#2453#0" expanded="true" />
+            <element signature="e#2517#2518#0" expanded="true" />
+            <element signature="e#2589#2590#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -887,6 +951,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -902,6 +967,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -909,6 +975,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -916,6 +983,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -923,6 +996,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -930,6 +1004,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -937,6 +1012,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-82">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -944,6 +1020,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,6 +1100,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="42" column="22" lean-forward="false" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+          <folding>
+            <element signature="e#1791#1792#0" expanded="true" />
+            <element signature="e#1838#1839#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

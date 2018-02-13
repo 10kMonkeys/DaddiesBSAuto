@@ -1,7 +1,7 @@
 package DaddiesBoardShop.Steps.InSectionAndMenu;
 
 import DaddiesBoardShop.Model.TextData;
-import DaddiesBoardShop.Pages.SectionAndMenu.PurchaseSortBySection;
+import DaddiesBoardShop.pages.SectionAndMenu.PurchaseSortBySection;
 import net.thucydides.core.annotations.Step;
 import org.junit.Assert;
 

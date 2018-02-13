@@ -1,6 +1,6 @@
 package DaddiesBoardShop.Steps.InSectionAndMenu;
 
-import DaddiesBoardShop.Pages.SectionAndMenu.MyAccountNavigationMenu;
+import DaddiesBoardShop.pages.SectionAndMenu.MyAccountNavigationMenu;
 import net.thucydides.core.annotations.Step;
 import org.junit.Assert;
 

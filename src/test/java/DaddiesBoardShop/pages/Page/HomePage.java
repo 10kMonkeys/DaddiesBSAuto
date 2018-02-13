@@ -1,6 +1,6 @@
-package DaddiesBoardShop.Pages.Page;
+package DaddiesBoardShop.pages.Page;
 
-import DaddiesBoardShop.Pages.BasePage;
+import DaddiesBoardShop.pages.BasePage;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.thucydides.core.annotations.DefaultUrl;
 import org.openqa.selenium.WebDriver;

@@ -1,6 +1,6 @@
-package DaddiesBoardShop.Pages.SectionAndMenu;
+package DaddiesBoardShop.pages.SectionAndMenu;
 
-import DaddiesBoardShop.Pages.BasePage;
+import DaddiesBoardShop.pages.BasePage;
 import DaddiesBoardShop.Steps.AtPage.AtLoginOrCreateAccPage;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import org.openqa.selenium.WebDriver;

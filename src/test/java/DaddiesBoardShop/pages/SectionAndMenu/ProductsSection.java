@@ -1,7 +1,7 @@
-package DaddiesBoardShop.Pages.SectionAndMenu;
+package DaddiesBoardShop.pages.SectionAndMenu;
 
 import DaddiesBoardShop.helper.Scrolling;
-import DaddiesBoardShop.Pages.BasePage;
+import DaddiesBoardShop.pages.BasePage;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.thucydides.core.annotations.WhenPageOpens;
 import org.openqa.selenium.WebDriver;

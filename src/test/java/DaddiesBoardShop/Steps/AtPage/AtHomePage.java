@@ -1,6 +1,6 @@
 package DaddiesBoardShop.Steps.AtPage;
 
-import DaddiesBoardShop.Pages.Page.HomePage;
+import DaddiesBoardShop.pages.Page.HomePage;
 import net.thucydides.core.annotations.Step;
 import org.junit.Assert;
 

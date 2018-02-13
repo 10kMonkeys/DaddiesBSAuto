@@ -1,13 +1,13 @@
 package DaddiesBoardShop.application;
 
-import DaddiesBoardShop.steps.AtPage.AtSearchResultPage;
-import DaddiesBoardShop.steps.AtPage.*;
-import DaddiesBoardShop.steps.InSectionAndMenu.InApplicationHeader;
-import DaddiesBoardShop.steps.InDialogs.InCartDialog;
-import DaddiesBoardShop.steps.InSectionAndMenu.InMyAccNavigationMenu;
-import DaddiesBoardShop.steps.InSectionAndMenu.InPurchaseCategorySection;
-import DaddiesBoardShop.steps.InSectionAndMenu.InProductSection;
-import DaddiesBoardShop.steps.InSectionAndMenu.InPurchaseSortBySection;
+import DaddiesBoardShop.steps.atPage.AtSearchResultPage;
+import DaddiesBoardShop.steps.atPage.*;
+import DaddiesBoardShop.steps.inSectionAndMenu.InApplicationHeader;
+import DaddiesBoardShop.steps.inDialogs.InCartDialog;
+import DaddiesBoardShop.steps.inSectionAndMenu.InMyAccNavigationMenu;
+import DaddiesBoardShop.steps.inSectionAndMenu.InPurchaseCategorySection;
+import DaddiesBoardShop.steps.inSectionAndMenu.InProductSection;
+import DaddiesBoardShop.steps.inSectionAndMenu.InPurchaseSortBySection;
 import net.thucydides.core.annotations.Steps;
 
 public class User {

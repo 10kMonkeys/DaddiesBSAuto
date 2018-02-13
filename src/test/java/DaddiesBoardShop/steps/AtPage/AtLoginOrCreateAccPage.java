@@ -1,4 +1,4 @@
-package DaddiesBoardShop.Steps.AtPage;
+package DaddiesBoardShop.steps.AtPage;
 
 import DaddiesBoardShop.helper.UsersProperties;
 import DaddiesBoardShop.pages.Page.LoginOrCreateAccPage;

@@ -1,4 +1,4 @@
-package DaddiesBoardShop.Steps.InSectionAndMenu;
+package DaddiesBoardShop.steps.InSectionAndMenu;
 
 import DaddiesBoardShop.pages.SectionAndMenu.ProductsSection;
 import net.thucydides.core.annotations.Step;

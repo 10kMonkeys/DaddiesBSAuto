@@ -1,4 +1,4 @@
-package DaddiesBoardShop.Steps.AtPage;
+package DaddiesBoardShop.steps.AtPage;
 
 import DaddiesBoardShop.Model.TextData;
 import DaddiesBoardShop.pages.Page.PurchasePage;

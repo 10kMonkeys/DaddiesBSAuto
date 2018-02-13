@@ -1,7 +1,7 @@
-package DaddiesBoardShop.Steps.AtPage;
+package DaddiesBoardShop.steps.AtPage;
 
-import DaddiesBoardShop.helper.UsersProperties;
-import DaddiesBoardShop.pages.Page.MyAccDashboardPage;
+import DaddiesBoardShop.Helper.UsersProperties;
+import DaddiesBoardShop.Pages.Page.MyAccDashboardPage;
 import net.thucydides.core.annotations.Step;
 import org.junit.Assert;
 

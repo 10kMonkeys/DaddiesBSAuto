@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2226639-0850-4b93-8653-ca131ca33ae7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/steps/AtPage/AtMyAccDashboardPage.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/steps/InSectionAndMenu/InProductSection.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/User.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/SectionAndMenu/ApplicationHeader.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/SectionAndMenu/ApplicationHeader.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/steps/AtPage/AtCreateAccountPage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/steps/AtPage/AtCreateAccountPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/steps/AtPage/AtHomePage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/steps/AtPage/AtHomePage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/steps/AtPage/AtLoginOrCreateAccPage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/steps/AtPage/AtLoginOrCreateAccPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/steps/AtPage/AtLongboardsPage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/steps/AtPage/AtLongboardsPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/steps/AtPage/AtPurchasePage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/steps/AtPage/AtPurchasePage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/steps/AtPage/AtSearchResultPage.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/steps/AtPage/AtSearchResultPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/steps/InDialogs/InCartDialog.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/steps/InDialogs/InCartDialog.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/steps/InSectionAndMenu/InApplicationHeader.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/steps/InSectionAndMenu/InApplicationHeader.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/steps/InSectionAndMenu/InMyAccNavigationMenu.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/steps/InSectionAndMenu/InMyAccNavigationMenu.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/steps/InSectionAndMenu/InPurchaseCategorySection.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/steps/InSectionAndMenu/InPurchaseCategorySection.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/steps/InSectionAndMenu/InPurchaseSortBySection.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/steps/InSectionAndMenu/InPurchaseSortBySection.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/AddPurchaseTests/AddPurchaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/AddPurchaseTests/AddPurchaseTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/CheckElementsTests/CreateAccPageElementTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/CheckElementsTests/CreateAccPageElementTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/CheckElementsTests/LoginOrCreateAccPageElementsTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/CheckElementsTests/LoginOrCreateAccPageElementsTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/CheckElementsTests/MyAccDashboardNavMenuTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/CheckElementsTests/MyAccDashboardNavMenuTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HomePageTests/ElementsAreDisplayedTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HomePageTests/ElementsAreDisplayedTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LogInAndRegisterTests/LogInRegisteredCustomerTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LogInAndRegisterTests/LogInRegisteredCustomerTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LogInAndRegisterTests/RegisterNewCustomerTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LogInAndRegisterTests/RegisterNewCustomerTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LongboardsPageTests/LongLowToHighSortingTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LongboardsPageTests/LongLowToHighSortingTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LongboardsPageTests/ProductDetailsTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/LongboardsPageTests/ProductDetailsTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/application/Application.java" afterPath="$PROJECT_DIR$/src/test/java/DaddiesBoardShop/application/TestRunner.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,14 +24,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/Application.java">
+      <file leaf-file-name="TestRunner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/application/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyAccountNavigationMenu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/SectionAndMenu/MyAccountNavigationMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationHeader.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/SectionAndMenu/ApplicationHeader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -227,7 +242,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DaddiesBSAuto" type="b2602c69:ProjectViewProjectNode" />
@@ -236,7 +251,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
-              <item name="Helper" type="462c0819:PsiDirectoryNode" />
+              <item name="helper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DaddiesBSAuto" type="b2602c69:ProjectViewProjectNode" />
@@ -254,7 +269,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
-              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DaddiesBSAuto" type="b2602c69:ProjectViewProjectNode" />
@@ -263,8 +278,28 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
-              <item name="Pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Dialogs" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="dialogs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DaddiesBSAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DaddiesBSAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DaddiesBSAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DaddiesBSAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="SectionAndMenu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DaddiesBSAuto" type="b2602c69:ProjectViewProjectNode" />
@@ -282,7 +317,47 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+              <item name="AtPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DaddiesBSAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DaddiesBSAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+              <item name="InDialogs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DaddiesBSAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DaddiesBSAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+              <item name="InSectionAndMenu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DaddiesBSAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DaddiesBSAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DaddiesBSAuto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DaddiesBSAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DaddiesBoardShop" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="AddPurchaseTests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -301,16 +376,16 @@
     <property name="project.structure.side.proportion" value="0.42768273" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MyProjects\DaddiesBsAuto" />
-      <recent name="D:\MyProjects\DaddiesBsAuto\src\test\java" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="DaddiesBoardShop.Steps.Dialogs" />
       <recent name="DaddiesBoardShop.Pages.Dialogs" />
       <recent name="DaddiesBoardShop.Pages" />
       <recent name="DaddiesBoardShop.Pages.Page" />
       <recent name="DaddiesBoardShop.Steps.AtPage" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyProjects\DaddiesBsAuto" />
+      <recent name="D:\MyProjects\DaddiesBsAuto\src\test\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -599,20 +674,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="881" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32951653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2550586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2550586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -668,7 +744,7 @@
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/List.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/String.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/Dialogs/CartDialog.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/dialogs/CartDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="23" />
@@ -713,7 +789,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Tests/HomePageTests/TextDataAreCorrectTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/application/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
@@ -723,7 +799,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Helper/UsersProperties.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/helper/UsersProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
@@ -731,7 +807,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Helper/Scrolling.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/helper/Scrolling.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
@@ -739,7 +815,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Application/User.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/application/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
@@ -763,7 +839,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/Dialogs/CartDialog.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/dialogs/CartDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
@@ -771,7 +847,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/Page/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Page/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="112" column="17" lean-forward="true" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
@@ -785,7 +861,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/Page/CreateAccountPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Page/CreateAccountPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-473">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
@@ -793,7 +869,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/Page/LoginOrCreateAccPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Page/LoginOrCreateAccPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="40" column="39" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="39" />
@@ -801,7 +877,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/Page/LongboardsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Page/LongboardsPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
@@ -809,7 +885,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/Page/MyAccDashboardPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Page/MyAccDashboardPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="47" />
@@ -817,7 +893,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/Page/SearchResultPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Page/SearchResultPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="19" column="58" lean-forward="true" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
@@ -825,33 +901,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/Page/PurchasePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/Page/PurchasePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="e#1146#1147#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/SectionAndMenu/ApplicationHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/SectionAndMenu/MyAccountNavigationMenu.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/SectionAndMenu/ApplicationHeader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-371">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="270">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/SectionAndMenu/ProductsSection.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/SectionAndMenu/MyAccountNavigationMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/SectionAndMenu/ProductsSection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
           <caret line="96" column="36" lean-forward="false" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
@@ -859,7 +933,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/SectionAndMenu/PurchaseCategorySection.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/SectionAndMenu/PurchaseCategorySection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="63" column="38" lean-forward="false" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
@@ -867,7 +941,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/SectionAndMenu/PurchaseSortBySection.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/SectionAndMenu/PurchaseSortBySection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-541">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -875,7 +949,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/Pages/BasePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaddiesBoardShop/pages/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />

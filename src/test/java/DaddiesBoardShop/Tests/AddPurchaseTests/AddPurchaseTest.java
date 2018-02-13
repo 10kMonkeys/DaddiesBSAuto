@@ -1,11 +1,11 @@
 package DaddiesBoardShop.Tests.AddPurchaseTests;
 
-import DaddiesBoardShop.application.Application;
+import DaddiesBoardShop.application.TestRunner;
 import net.thucydides.core.annotations.WithTag;
 import org.junit.Test;
 
 @WithTag(type = "My", name = "Test")
-public class AddPurchaseTest extends Application {
+public class AddPurchaseTest extends TestRunner {
     private final String SEARCH_CRITERIA = "Omen Longboard";
     private final String SEARCH_RESULT = "Omen Grim Longboard Deck - 2017";
 

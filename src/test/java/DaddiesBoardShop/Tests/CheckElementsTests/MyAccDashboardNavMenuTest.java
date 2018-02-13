@@ -1,11 +1,11 @@
 package DaddiesBoardShop.Tests.CheckElementsTests;
 
-import DaddiesBoardShop.application.Application;
+import DaddiesBoardShop.application.TestRunner;
 import net.thucydides.core.annotations.WithTag;
 import org.junit.Test;
 
 @WithTag(type = "My", name = "Test")
-public class MyAccDashboardNavMenuTest extends Application {
+public class MyAccDashboardNavMenuTest extends TestRunner {
 
     @Test
     public void checkMyNavigationMenu() {

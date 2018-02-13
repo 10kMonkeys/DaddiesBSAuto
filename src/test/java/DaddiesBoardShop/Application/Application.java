@@ -9,7 +9,9 @@ import org.openqa.selenium.WebDriver;
 
 @RunWith(SerenityRunner.class)
 public class Application {
-
+    
+    //1
+    
     @Managed
     WebDriver driver;
 
